@@ -26,22 +26,22 @@ table {
   margin-left: 20px;
   margin-right: 20px;
   border-collapse: collapse;
-  width: 90%;
+  width: 21em;
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: -0.03em;
 }
 
 td {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   padding: 7px 0;
 }
 td:first-child {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 td:nth-child(3) {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 td:nth-child(2) {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
 }

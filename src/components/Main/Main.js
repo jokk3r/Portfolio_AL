@@ -26,7 +26,7 @@ class Main extends React.Component {
 
   render() {
     return (
-      <div className={style.main__block}>
+      <div className={style.main__block} id="main">
         <div className={style.main__intro}>
           <p className={style.main__hello}>hello, i am</p>
           <p className={style.main__creative}>creative</p>

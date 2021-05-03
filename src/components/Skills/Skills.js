@@ -3,7 +3,7 @@ import style from "./Skills.module.scss";
 
 function Skills() {
   return (
-    <div className={style.skills__block}>
+    <div className={style.skills__block} id={"skills"}>
       <div className={style.skills__wrap}>
         <div className={style.skills__slide}>
           <p className={style.skills__skills}>Skills</p>

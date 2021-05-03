@@ -1,0 +1,97 @@
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 53px;
+  position: fixed;
+  background-color: #ffffff;
+  color: black;
+  top: 0;
+  z-index: 1000;
+}
+.header__logo {
+  display: flex;
+
+  margin-left: 20px;
+}
+.header__logoA {
+  width: 100%;
+  height: 21px;
+}
+.header__logoL {
+  width: 100%;
+  height: 21px;
+  margin-top: 3px;
+  margin-left: -1px;
+}
+.header__logoB {
+  width: 100%;
+  height: 2px;
+  margin: 3px;
+}
+.header__name {
+  font-weight: 600;
+  font-size: 14px;
+}
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header__navMenu {
+  background-color: white;
+  width: 49%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -183px;
+  transition: 850ms;
+}
+.header__navMenu.active {
+  right: 0;
+  transition: 350ms;
+}
+.menu__text {
+  list-style: none;
+  color: black;
+  font-size: 20px;
+  width: 100%;
+  padding: 0 16px;
+}
+.menu__items {
+  list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+.menu__bars {
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  background: none;
+}
+.menu__item {
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 95%;
+  border-radius: 5px;
+  color: black;
+}
+.menu__toggle a {
+  font-size: 20px;
+  margin-top: 0;
+  transition: 850ms;
+}
+.menu__text:hover {
+  background-color: black;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.menu__text:hover .menu__item {
+  color: #ffffff;
+}

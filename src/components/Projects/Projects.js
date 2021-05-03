@@ -5,7 +5,7 @@ import checkDark from "./../assets/img/projects/checkDark.png";
 import link from "./../assets/img/projects/link.png";
 function Projects() {
   return (
-    <div className={style.projects__block}>
+    <div className={style.projects__block} id={"portfolio"}>
       <div className={style.projects__intro}>
         <p className={style.projects__text}>
           BELOW YOU CAN SEE SOME OF THE PROJECTS I'VE WORKED IN
