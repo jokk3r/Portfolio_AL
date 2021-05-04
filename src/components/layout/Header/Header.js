@@ -6,7 +6,7 @@ import Burger from "./../../assets/logos/-.png";
 
 function Header() {
   const [sidebar, setSidebar] = useState(false);
-
+  const [width, setWidth] = useState(window.innerWidth);
   const showSidebar = () => setSidebar(!sidebar);
   return (
     <header className="header__main">
@@ -17,11 +17,13 @@ function Header() {
       <div>
         <p className="header__name">ANDREAS LACKMANN</p>
       </div>
+
       <div className="header__nav" onClick={showSidebar}>
         <img src={Burger} className="header__logoB" alt="" />
         <img src={Burger} className="header__logoB" alt="" />
       </div>
-      <nav className={sidebar ? "header__navMenu active" : "header__navMenu"}>
+
+      {/* <nav className={sidebar ? "header__navMenu active" : "header__navMenu"}>
         <ul className="menu__items">
           <li className="menu__toggle">
             <a className="menu__item " onClick={showSidebar}>
@@ -44,7 +46,7 @@ function Header() {
             </a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </header>
   );
 }

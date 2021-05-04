@@ -31,14 +31,23 @@ class Main extends React.Component {
           <p className={style.main__hello}>hello, i am</p>
           <p className={style.main__creative}>creative</p>
           <p className={style.main__front}>frontend</p>
-          <p className={style.main__develop}>developer</p>
-          <p className={style.main__berlin}>/based in berlin</p>
+          {this.state.mainImg === MainMobile ? (
+            <>
+              <p className={style.main__develop}>developer</p>
+              <p className={style.main__berlin}>/ based in berlin</p>
+            </>
+          ) : (
+            <div className={style.main__developerIn}>
+              <p className={style.main__develop}>developer</p>
+              <p className={style.main__berlin}>/ based in berlin</p>
+            </div>
+          )}
         </div>
         <img className={style.main__img} src={this.state.mainImg} alt="" />
-        <div>
-          <img className={style.main__star} src={Star} alt="" />
+        <a className={style.main__star} href={"#portfolio"}>
+          <img className={style.main__starImg} src={Star} alt="" />
           <p className={style.main__check}>check my work</p>
-        </div>
+        </a>
       </div>
     );
   }

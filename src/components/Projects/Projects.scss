@@ -87,3 +87,10 @@
   margin-top: 6px;
   margin-bottom: 23px;
 }
+@media only screen and (min-width: 1024px) {
+  .projects__text {
+    font-size: 4.6vw;
+    width: 42%;
+    margin-right: 14vw;
+  }
+}
