@@ -4,13 +4,13 @@
   padding-bottom: 20px;
 }
 .skills__wrap {
-  animation: 3s linear infinite;
 }
 .skills__slide {
-  overflow: hidden;
-  overflow-x: scroll;
+  // overflow: hidden;
+  // overflow-x: scroll;
   //   width: 5600px;
   display: flex;
+  margin-left: -100vw;
 }
 .skills__skills {
   margin-top: 10px;

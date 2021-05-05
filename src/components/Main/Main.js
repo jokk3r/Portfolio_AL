@@ -28,7 +28,7 @@ class Main extends React.Component {
     return (
       <div className={style.main__block} id="main">
         <div className={style.main__intro}>
-          <p className={style.main__hello}>hello, i am</p>
+          {/* <p className={style.main__hello}>hello, i am</p> */}
           <p className={style.main__creative}>creative</p>
           <p className={style.main__front}>frontend</p>
           {this.state.mainImg === MainMobile ? (
