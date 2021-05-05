@@ -85,7 +85,6 @@
 .menu__toggle a {
   font-size: 20px;
   margin-top: 0;
-  transition: 850ms;
 }
 .menu__text:hover {
   background-color: black;
@@ -94,4 +93,16 @@
 }
 .menu__text:hover .menu__item {
   color: #ffffff;
+}
+@media only screen and (min-width: 1024px) {
+  .header__navMenu {
+    right: -803px;
+    width: 20%;
+  }
+  .header__navMenu {
+    justify-content: flex-start;
+  }
+  .menu__items {
+    margin-left: 20px;
+  }
 }

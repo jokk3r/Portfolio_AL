@@ -23,7 +23,7 @@ function Header() {
         <img src={Burger} className="header__logoB" alt="" />
       </div>
 
-      {/* <nav className={sidebar ? "header__navMenu active" : "header__navMenu"}>
+      <nav className={sidebar ? "header__navMenu active" : "header__navMenu"}>
         <ul className="menu__items">
           <li className="menu__toggle">
             <a className="menu__item " onClick={showSidebar}>
@@ -46,7 +46,7 @@ function Header() {
             </a>
           </li>
         </ul>
-      </nav> */}
+      </nav>
     </header>
   );
 }

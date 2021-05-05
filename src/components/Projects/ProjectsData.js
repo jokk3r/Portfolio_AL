@@ -3,7 +3,8 @@ import checkWhite from "./../assets/img/projects/checkWhite.png";
 import checkDark from "./../assets/img/projects/checkDark.png";
 export const ProjectsData = [
   {
-    cName: ["projects__imgBlock", "projects__img", "projects__img2"],
+    cName1: ["projects__imgBlock", "projects__img", "projects__img2"],
+    cName2: ["projects__img", "projects__img2"],
     title: "checklist",
     skills: ["react", "nodejs", "mongoDB"],
     img: [checkWhite, checkDark],

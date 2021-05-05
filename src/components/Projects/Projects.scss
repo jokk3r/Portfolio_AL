@@ -16,33 +16,47 @@
 }
 .projects__list {
   width: 100%;
-  flex-wrap: wrap;
 }
 .projects__item {
+  margin: 0 20px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  width: 21em;
+  width: 90%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  margin: 0 20px;
 }
 .projects__imgBlock {
   width: 335px;
   height: 364px;
   background-color: #65657a;
+  position: relative;
+}
+.projects__imgBlockFinance {
+  width: 100%;
+  height: 454px;
+
+  position: relative;
+}
+.projects__imgBlockSocial {
+  width: 335px;
+  height: 304px;
 
   position: relative;
 }
 .projects__img {
-  position: absolute;
-  left: 34px;
-  top: 31px;
-  z-index: 100;
+  width: 334px;
+  height: 380px;
 }
-.projects__img2 {
-  position: absolute;
-  left: 160px;
-  top: 72px;
+
+.projects__Financeimg {
+  width: 334px;
+  height: 470px;
 }
+.projects__Socialimg {
+  height: 300px;
+  width: 334px;
+}
+
 .projects__name {
   font-size: 16px;
   position: absolute;
@@ -52,6 +66,17 @@
   left: 24px;
   bottom: 18px;
   margin-bottom: 0px;
+}
+.projects__nameBlack {
+  font-size: 16px;
+  position: absolute;
+  //   line-height: 19px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  left: 24px;
+  bottom: 18px;
+  margin-bottom: 0px;
+  color: black;
 }
 .projects__info {
   width: 21em;
@@ -92,5 +117,92 @@
     font-size: 4.6vw;
     width: 42%;
     margin-right: 14vw;
+  }
+  .projects__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 3vw;
+    width: 100%;
+  }
+  .projects__item {
+    flex: 40%;
+    height: 800px;
+    margin-bottom: 0;
+    border: none;
+  }
+  .projects__item:first-child {
+    height: 900px;
+  }
+  .projects__item:nth-child(2) {
+    margin-top: 200px;
+
+    width: 500px;
+  }
+  .projects__item:nth-child(3) {
+    margin-top: 0;
+  }
+
+  .projects__img {
+    width: 634px;
+    height: 692px;
+  }
+
+  .projects__Financeimg {
+    width: 442px;
+    height: 664px;
+  }
+  .projects__Socialimg {
+    width: 634px;
+    height: 592px;
+  }
+  .projects__name {
+    font-size: 40px;
+  }
+  .projects__nameBlack {
+    font-size: 40px;
+  }
+
+  .projects__intro {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .projects__imgBlock {
+    width: 634px;
+    height: 692px;
+    background-color: #65657a;
+    position: relative;
+  }
+  .projects__imgBlockFinance {
+    width: 442px;
+    height: 664px;
+
+    position: relative;
+  }
+  .projects__imgBlockSocial {
+    width: 634px;
+    height: 592px;
+
+    position: relative;
+  }
+  .projects__text {
+    left: 34px;
+    bottom: 18px;
+  }
+  .projects__item:first-child .projects__info {
+    width: 634px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .projects__info:nth-child(2) {
+    width: 442px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .projects__item:nth-child(3) .projects__info {
+    width: 634px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .projects__describeText {
+    font-size: 20px;
   }
 }
