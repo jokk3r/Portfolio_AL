@@ -1,6 +1,7 @@
 .contact__block {
   width: 100%;
   padding-bottom: 30px;
+  height: 100%;
 }
 .contact__main {
   width: 334px;
@@ -58,10 +59,11 @@
   letter-spacing: -0.02em;
   font-size: 16px;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .contact__block {
-    margin: 0 100px;
+    margin: 0 6vw;
     width: 90%;
+    min-height: 500px;
   }
   .contact__main {
     width: 80%;
@@ -70,14 +72,14 @@
   }
   .contact__head {
     max-width: 1334px;
-    font-size: 150px;
+    font-size: 11vw;
     letter-spacing: -0.05em;
     text-transform: uppercase;
     display: flex;
     margin-top: 50px;
   }
   .contact__Email {
-    font-size: 40px;
+    font-size: 3vw;
   }
   .contact__arrow {
     width: 39.13px;
@@ -91,12 +93,20 @@
     width: 80%;
   }
   .contact__link {
-    font-size: 20px;
+    font-size: 16px;
   }
   .contact__number {
-    font-size: 20px;
+    font-size: 16px;
   }
   .contact__me {
     margin-left: 22px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .contact__link {
+    font-size: 1.5vw;
+  }
+  .contact__number {
+    font-size: 1.5vw;
   }
 }

@@ -94,10 +94,10 @@
 .menu__text:hover .menu__item {
   color: #ffffff;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 624px) {
   .header__navMenu {
-    right: -803px;
-    width: 20%;
+    right: -1503px;
+    width: 20vw;
   }
   .header__navMenu {
     justify-content: flex-start;

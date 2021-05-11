@@ -10,14 +10,13 @@ function About() {
         Additionally, I always strive to include new and innovative interactions
         to enhance the user experience.
       </p> */}
-      <p className={style.about__text}>
-        A passionate UX-conscious developer from Berlin eager to bring creative
-        ideas to Life.
-      </p>
-      <p className={style.about__text}>
-        Always striving to achieve more with less by using the latest
-        programming frameworks available
-      </p>
+      <div className={style.about__text}>
+        <p>
+          A passionate UX-conscious developer from Berlin eager to bring
+          creative ideas to Life. Always striving to achieve more with less by
+          using the latest programming frameworks available
+        </p>
+      </div>
     </div>
   );
 }

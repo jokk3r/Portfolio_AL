@@ -80,12 +80,12 @@
   /* стили */
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .main__block {
     margin-top: 53px;
 
     width: 100%;
-    height: 160vh;
+    height: 80vw;
   }
   .main__intro {
     z-index: 100;
@@ -121,7 +121,7 @@
     font-size: 3vw;
     letter-spacing: -0.03em;
     margin-left: 7px;
-    margin-bottom: 1.8vw;
+    margin-bottom: 2vw;
   }
   .main__img {
     position: absolute;
@@ -146,5 +146,10 @@
     border-bottom: 1px solid #ffffff;
     transform: rotate(-15deg);
     text-transform: uppercase;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .main__block {
+    height: 90vw;
   }
 }

@@ -13,7 +13,7 @@ class Main extends React.Component {
 
   componentDidMount() {
     let width = window.innerWidth;
-    if (width <= 769) {
+    if (width <= 767) {
       this.setState({
         mainImg: MainMobile,
       });
