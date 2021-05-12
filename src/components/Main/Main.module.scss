@@ -1,3 +1,50 @@
+//ANIMATION LEFT
+@-webkit-keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+//ANIMATION RIGHT
+@-webkit-keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
 .main__block {
   margin-top: 53px;
   display: block;
@@ -24,7 +71,12 @@
   letter-spacing: -0.05em;
   margin-left: 24px;
   margin-bottom: 0;
-  // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 .main__front {
   font-size: 50px;
@@ -32,6 +84,15 @@
   margin-left: 104px;
   margin-bottom: 0;
   margin-top: 0;
+
+  // -webkit-animation-name: slideInRight;
+  // animation-name: slideInRight;
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 .main__develop {
   font-size: 50px;
@@ -39,12 +100,26 @@
   margin-left: 24px;
   margin-bottom: 0;
   margin-top: 0;
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 .main__berlin {
   font-size: 16px;
   letter-spacing: -0.03em;
   margin-left: 184px;
   margin-top: 0;
+  // -webkit-animation-name: slideInRight;
+  // animation-name: slideInRight;
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 .main__developerIn {
   display: flex;

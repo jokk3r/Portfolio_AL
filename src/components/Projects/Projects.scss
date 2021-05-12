@@ -132,13 +132,13 @@
   .projects__list {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 6vw;
-    width: 88vw;
+    margin: 0 4vw;
+    width: 92vw;
     // border: 2px solid red;
   }
   .projects__item {
     flex: 30vw;
-    align-items: flex-start;
+    align-items: center;
     // width: 43vw;
     height: 100%;
     margin-bottom: 0;
@@ -147,7 +147,6 @@
   }
 
   .projects__item:first-child {
-    // height: 900px;
   }
   .projects__item:nth-child(2) {
     width: 500px;
@@ -215,39 +214,37 @@
     left: 34px;
     bottom: 18px;
   }
-  .projects__item:first-child .projects__info {
-    width: 634px;
+  .projects__item .projects__info {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 634px;
   }
-  // .projects__item:after {
-  //   content: "";
-  //   transition: transform 250ms ease-in-out;
-  // }
+
   .projects__item:first-child:hover:after .projects__info {
     border-bottom: 1px solid #ffffffff;
   }
 
-  .projects__info:nth-child(2) {
+  .projects__item:hover .projects__info {
+    border-bottom: 1px solid #ffffffff;
+  }
+
+  .projects__item:nth-child(2) .projects__info {
     width: 442px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
-  .projects__info:nth-child(2):hover {
+  .projects__item:nth-child(2):hover .projects__info {
     border-bottom: 1px solid #ffffffff;
-  }
-  .projects__item:nth-child(3) .projects__info {
-    width: 634px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
   .projects__item:nth-child(3):hover .projects__info {
     border-bottom: 1px solid #ffffffff;
   }
+  .projects__item:nth-child(4) .projects__info {
+    width: 442px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
   .projects__item:nth-child(4):hover .projects__info {
     border-bottom: 1px solid #ffffffff;
   }
-  .projects__item:nth-child(5) .projects__info {
-    width: 634px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  }
+
   .projects__item:nth-child(5):hover .projects__info {
     border-bottom: 1px solid #ffffffff;
   }
@@ -255,8 +252,11 @@
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 1320px) {
-  .projects__item:last-child {
+@media only screen and (min-width: 1258px) {
+  .projects__item {
+    flex: 30vw;
+    align-items: flex-start;
+    justify-content: center;
   }
   .projects__item:nth-child(2) {
     margin-top: 200px;
@@ -270,5 +270,6 @@
   }
   .projects__item:last-child {
     align-items: flex-start;
+    width: 100%;
   }
 }
