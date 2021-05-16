@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio_AL/static/css/main.d008eedc.chunk.css",
+    "main.js": "/Portfolio_AL/static/js/main.76a2eb36.chunk.js",
+    "main.js.map": "/Portfolio_AL/static/js/main.76a2eb36.chunk.js.map",
+    "runtime-main.js": "/Portfolio_AL/static/js/runtime-main.6699f77b.js",
+    "runtime-main.js.map": "/Portfolio_AL/static/js/runtime-main.6699f77b.js.map",
+    "static/js/2.1556deef.chunk.js": "/Portfolio_AL/static/js/2.1556deef.chunk.js",
+    "static/js/2.1556deef.chunk.js.map": "/Portfolio_AL/static/js/2.1556deef.chunk.js.map",
+    "index.html": "/Portfolio_AL/index.html",
+    "static/css/main.d008eedc.chunk.css.map": "/Portfolio_AL/static/css/main.d008eedc.chunk.css.map",
+    "static/js/2.1556deef.chunk.js.LICENSE.txt": "/Portfolio_AL/static/js/2.1556deef.chunk.js.LICENSE.txt",
+    "static/media/basket.ee3baa5f.png": "/Portfolio_AL/static/media/basket.ee3baa5f.png",
+    "static/media/cleancode.307a426e.png": "/Portfolio_AL/static/media/cleancode.307a426e.png",
+    "static/media/finance.b7269345.jpg": "/Portfolio_AL/static/media/finance.b7269345.jpg",
+    "static/media/main-desktop.beda23a8.jpg": "/Portfolio_AL/static/media/main-desktop.beda23a8.jpg",
+    "static/media/main-mobile.5f3100b7.jpg": "/Portfolio_AL/static/media/main-mobile.5f3100b7.jpg",
+    "static/media/social1.6fe9a356.png": "/Portfolio_AL/static/media/social1.6fe9a356.png",
+    "static/media/todo.5f749ca4.png": "/Portfolio_AL/static/media/todo.5f749ca4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6699f77b.js",
+    "static/js/2.1556deef.chunk.js",
+    "static/css/main.d008eedc.chunk.css",
+    "static/js/main.76a2eb36.chunk.js"
+  ]
+}
