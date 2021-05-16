@@ -51,7 +51,7 @@
   justify-content: center;
   position: fixed;
   top: 0;
-  right: -183px;
+  right: -50vw;
   transition: 850ms;
 }
 .header__navMenu.active {
@@ -96,7 +96,7 @@
 }
 @media only screen and (min-width: 624px) {
   .header__navMenu {
-    right: -1503px;
+    right: 70vw;
     width: 20vw;
   }
   .header__navMenu {
