@@ -6,3 +6,8 @@ html {
   background-color: black;
   color: aliceblue;
 }
+@media only screen and (min-width: 1024px) {
+  .main__content {
+    margin-left: 97px;
+  }
+}

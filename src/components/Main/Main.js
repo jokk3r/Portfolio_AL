@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Main.module.scss";
 import MainMobile from "./../assets/img/main-mobile.jpg";
 import MainDesktop from "./../assets/img/main-desktop.jpg";
-import Star from "./../assets/img/Star2.png";
+import Star from "./../assets/img/Star.svg";
 class Main extends React.Component {
   constructor(props) {
     super(props);
