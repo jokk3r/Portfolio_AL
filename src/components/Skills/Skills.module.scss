@@ -48,7 +48,7 @@ td:nth-child(2) {
 
 @media only screen and (min-width: 768px) {
   .skills__block {
-    padding-bottom: 10vw;
+    padding-bottom: 10vh;
   }
   .skills__skills {
     font-size: 10vw;
@@ -58,15 +58,20 @@ td:nth-child(2) {
     width: 0;
   }
   .skills__table {
-    margin: 0 2vw;
-    width: 96vw;
+    margin: 0 8vw;
   }
   table {
-    width: 92vw;
+    width: 78vw;
     font-size: 3vw;
   }
   td {
-    padding: 2vw;
+    padding: 1vw 0;
+  }
+  td:first-child {
+    padding-right: 60px;
+  }
+  td:nth-child(2) {
+    padding-right: 80px;
   }
 }
 @media only screen and (min-width: 1024px) {

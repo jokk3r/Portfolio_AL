@@ -1,11 +1,10 @@
 import React from "react";
 import style from "./Contact.module.scss";
-import linkEmail from "./../assets/img/linkToEmail.png";
-import { Link } from "react-router-dom";
+import linkEmail from "./../assets/img/linkToEmail.svg";
 
 function Contact() {
   return (
-    <div className={style.contact__block} id="сontact">
+    <div className={style.contact__block} id="contact">
       <div className={style.contact__main}>
         <div className={style.contact__head}>
           <p className={style.contact__contact}>Contact</p>

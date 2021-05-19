@@ -48,7 +48,7 @@ function Header() {
             </a>
           </li>
           <li className="menu__text">
-            <a href="#сontact" className="menu__item ">
+            <a href="#contact" className="menu__item ">
               <p>contact</p>
             </a>
           </li>

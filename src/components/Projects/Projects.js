@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.scss";
 
-import link from "./../assets/img/projects/link.png";
+import link from "./../assets/img/projects/link.svg";
 import { ProjectsData } from "./ProjectsData";
 function Projects() {
   return (

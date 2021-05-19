@@ -155,16 +155,11 @@
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  /* стили */
-}
-
 @media only screen and (min-width: 768px) {
   .main__block {
     margin-top: 53px;
-
+    height: 75vw;
     width: 100%;
-    height: 80vw;
   }
   .main__intro {
     z-index: 100;
@@ -230,8 +225,7 @@
 }
 @media only screen and (min-width: 1024px) {
   .main__block {
-    height: 90vw;
-
     margin-top: 0;
+    height: 60vw;
   }
 }

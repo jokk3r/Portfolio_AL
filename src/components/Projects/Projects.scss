@@ -13,6 +13,7 @@
   margin-right: 20px;
   letter-spacing: -0.03em;
   margin-bottom: 28px;
+  line-height: 130%;
 }
 .projects__list {
   width: 100%;
@@ -25,10 +26,13 @@
   width: 90%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+.projects__item:nth-child(3) .projects__name {
+  color: #0a0a0b;
+}
 .projects__imgBlock {
   width: 335px;
   height: 364px;
-  background-color: #65657a;
+
   position: relative;
 
   overflow: hidden;
@@ -124,32 +128,37 @@
   margin-bottom: 23px;
 }
 @media only screen and (min-width: 768px) {
+  .projects__block {
+    margin: 0 8vw;
+  }
   .projects__text {
     font-size: 4.6vw;
     width: 42%;
-    margin-right: 14vw;
+    margin-right: 22vw;
+    margin-bottom: 80px;
   }
   .projects__list {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 4vw;
-    width: 92vw;
+
+    width: 84vw;
     // border: 2px solid red;
   }
   .projects__item {
-    flex: 30vw;
-    align-items: center;
+    // flex: 30vw;
+    // align-items: center;
     // width: 43vw;
     height: 100%;
     margin-bottom: 0;
     border: none;
+
     // border: 2px solid orange;
   }
 
   .projects__item:first-child {
   }
   .projects__item:nth-child(2) {
-    width: 500px;
+    width: 34vw;
     margin-bottom: 40px;
   }
   .projects__item:nth-child(3) {
@@ -163,13 +172,13 @@
     height: 692px;
   }
   .projects__imgBlock img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   .projects__imgBlockSocial img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   .projects__imgBlockFinance img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   .projects__Financeimg {
@@ -195,7 +204,7 @@
   .projects__imgBlock {
     width: 634px;
     height: 692px;
-    background-color: #65657a;
+
     position: relative;
   }
   .projects__imgBlockFinance {
@@ -210,9 +219,9 @@
 
     position: relative;
   }
-  .projects__text {
-    left: 34px;
-    bottom: 18px;
+  .projects__name {
+    left: 44px;
+    bottom: 36px;
   }
   .projects__item .projects__info {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -252,24 +261,74 @@
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 1258px) {
+@media only screen and (min-width: 1024px) {
   .projects__item {
-    flex: 30vw;
+    display: inline-flex;
+    flex: 28vw;
     align-items: flex-start;
     justify-content: center;
+    margin-right: 2vw;
   }
+
   .projects__item:nth-child(2) {
     margin-top: 200px;
     margin-bottom: 0;
   }
   .projects__item:nth-child(3) {
-    margin-top: -40px;
+    margin-top: -68px;
   }
-  .projects__item:nth-child(5) {
-    margin-top: -110px;
+  .projects__item:nth-child(4) {
+    margin-top: 25px;
   }
+
   .projects__item:last-child {
     align-items: flex-start;
-    width: 100%;
+    width: 30%;
+
+    margin-top: 30px;
+    margin-top: -34px;
+  }
+  .projects__img {
+    width: 44vw;
+    height: 52vw;
+    object-fit: cover;
+  }
+  .projects__Financeimg {
+    width: 31vw;
+    height: 46vw;
+    object-fit: cover;
+  }
+  .projects__Socialimg {
+    width: 44vw;
+    height: 48vw;
+    object-fit: cover;
+  }
+  .projects__imgBlock {
+    width: 44vw;
+    height: 47vw;
+
+    position: relative;
+  }
+  .projects__imgBlockFinance {
+    width: 31vw;
+    height: 46vw;
+
+    position: relative;
+  }
+  .projects__imgBlockSocial {
+    width: 44vw;
+    height: 48vw;
+
+    position: relative;
+  }
+
+  .projects__item .projects__info {
+    width: 44vw;
+  }
+  .projects__item:nth-child(2) .projects__info {
+    width: 31vw;
+  }
+  .projects__item:nth-child(4) .projects__info {
+    width: 31vw;
   }
 }
