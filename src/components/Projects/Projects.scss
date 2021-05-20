@@ -1,5 +1,4 @@
 .projects__block {
-  width: 100%;
   height: 100%;
 }
 .projects__intro {
@@ -112,13 +111,13 @@
 .projects__techName {
   //   display: inline-block;
   font-size: 12px;
-  margin-top: 3px;
+
   margin-right: 12px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  border: 1px solid #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 5px;
-  border-radius: 11px;
+  border-radius: 13px;
 }
 
 .projects__describe {
@@ -129,19 +128,19 @@
 }
 @media only screen and (min-width: 768px) {
   .projects__block {
-    margin: 0 8vw;
+    margin: 0 7vw 0 6.5vw;
   }
   .projects__text {
     font-size: 4.6vw;
-    width: 42%;
-    margin-right: 22vw;
+    width: 47%;
+    margin-right: 12vw;
     margin-bottom: 80px;
   }
   .projects__list {
     display: flex;
     flex-wrap: wrap;
 
-    width: 84vw;
+    width: 82vw;
     // border: 2px solid red;
   }
   .projects__item {
@@ -275,18 +274,17 @@
     margin-bottom: 0;
   }
   .projects__item:nth-child(3) {
-    margin-top: -68px;
+    margin-top: -38px;
   }
   .projects__item:nth-child(4) {
-    margin-top: 25px;
+    margin-top: 55px;
   }
 
   .projects__item:last-child {
     align-items: flex-start;
-    width: 30%;
 
     margin-top: 30px;
-    margin-top: -34px;
+    margin-top: -50px;
   }
   .projects__img {
     width: 44vw;
@@ -300,7 +298,7 @@
   }
   .projects__Socialimg {
     width: 44vw;
-    height: 48vw;
+    height: 45vw;
     object-fit: cover;
   }
   .projects__imgBlock {
@@ -317,7 +315,7 @@
   }
   .projects__imgBlockSocial {
     width: 44vw;
-    height: 48vw;
+    height: 45vw;
 
     position: relative;
   }
