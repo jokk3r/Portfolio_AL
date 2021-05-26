@@ -4,6 +4,11 @@ import todo from "./../assets/img/projects/todo.png";
 import social from "./../assets/img/projects/social1.png";
 import cleancode from "./../assets/img/projects/cleancode.png";
 import basket from "./../assets/img/projects/basket.png";
+
+export const Introduction = {
+  text: " BELOW YOU CAN SEE SOME OF THE PROJECTS I'VE WORKED IN",
+};
+
 export const ProjectsData = [
   {
     cName: "projects__imgBlock",

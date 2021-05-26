@@ -1,7 +1,9 @@
 import React from "react";
 import style from "./Skills.module.scss";
+import { SkillsMarquee, SkillsData } from "./SkillsData";
 
 function Skills() {
+  console.log(SkillsMarquee);
   return (
     <div className={style.skills__block} id={"skills"}>
       <marquee
@@ -10,42 +12,41 @@ function Skills() {
         className={style.skills__wrap}
       >
         <div className={style.skills__slide}>
-          <p className={style.skills__skills}>Skills</p>
-          <p className={style.skills__skills}>Fähigkeiten</p>
-          <p className={style.skills__skills}>Умения</p>
-          <p className={style.skills__skills}>habilidades</p>
-          <p className={style.skills__skills}>Skills</p>
-          <p className={style.skills__skills}>Skills</p>
-          <p className={style.skills__skills}>Skills</p>
-          <p className={style.skills__skills}>Skills</p>
+          {SkillsMarquee.name.map((item, index) => {
+            return (
+              <p className={style.skills__skills} key={index}>
+                {item}
+              </p>
+            );
+          })}
         </div>
       </marquee>
       <div className={style.skills__table}>
         <table>
           <tr>
-            <td>Java Script</td>
-            <td>Node JS</td>
-            <td>Mongo DB</td>
+            {SkillsData.firstGroup.map((item, index) => {
+              return <td key={index}>{item}</td>;
+            })}
           </tr>
           <tr>
-            <td>Express</td>
-            <td>SQL</td>
-            <td>Photoshop</td>
+            {SkillsData.secondGroup.map((item, index) => {
+              return <td key={index}>{item}</td>;
+            })}
           </tr>
           <tr>
-            <td>Photoshop</td>
-            <td>Figma</td>
-            <td>Json</td>
+            {SkillsData.thirdGroup.map((item, index) => {
+              return <td key={index}>{item}</td>;
+            })}
           </tr>
           <tr>
-            <td>React</td>
-            <td>Redux</td>
-            <td>Vue JS</td>
+            {SkillsData.fourthGroup.map((item, index) => {
+              return <td key={index}>{item}</td>;
+            })}
           </tr>
           <tr>
-            <td>Git</td>
-            <td>SASS</td>
-            <td>Terminal</td>
+            {SkillsData.fifthGroup.map((item, index) => {
+              return <td key={index}>{item}</td>;
+            })}
           </tr>
         </table>
       </div>

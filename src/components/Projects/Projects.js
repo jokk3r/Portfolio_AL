@@ -1,15 +1,13 @@
 import React from "react";
 import "./Projects.scss";
-
 import link from "./../assets/img/projects/link.svg";
-import { ProjectsData } from "./ProjectsData";
+import { ProjectsData, Introduction } from "./ProjectsData";
+
 function Projects() {
   return (
     <div className="projects__block" id={"portfolio"}>
       <div className="projects__intro">
-        <p className="projects__text">
-          BELOW YOU CAN SEE SOME OF THE PROJECTS I'VE WORKED IN
-        </p>
+        <p className="projects__text">{Introduction.text}</p>
       </div>
       <div className="projects__list">
         {ProjectsData.map((item, index) => {

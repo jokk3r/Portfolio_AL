@@ -1,7 +1,7 @@
-import "./App.css";
+import "./App.scss";
 import About from "./components/About/About";
 import Header from "./components/layout/Header/Header";
-import Main from "./components/Main/Main";
+import Main from "./components/HomepageTopBlock/HomepageTopBlock";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
