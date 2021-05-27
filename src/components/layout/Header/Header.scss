@@ -13,27 +13,16 @@
 .header__logo {
   margin-left: 20px;
 }
-// .header__logoA {
-//   width: 100%;
-//   height: 21px;
-// }
-// .header__logoL {
-//   width: 100%;
-//   height: 21px;
-//   margin-top: 3px;
-//   margin-left: -1px;
-// }
-.header__logoB {
-  width: 100%;
-  height: 2px;
+.header__logoBurger {
   margin: 3px;
+  margin-right: 0;
 }
 .header__name {
   font-weight: 600;
   font-size: 14px;
   margin-left: 15vw;
 }
-.header__m {
+.header__intro {
   display: flex;
 }
 .header__nav {
@@ -47,13 +36,13 @@
 }
 .header__navMenu {
   background-color: white;
-  width: 49%;
-  height: 100vh;
+  width: 100%;
+  height: 27vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   position: fixed;
-  top: 0;
-  right: -50vw;
+  top: 53px;
+  right: -100vw;
   transition: 850ms;
 }
 .header__navMenu.active {
@@ -63,14 +52,15 @@
 .menu__text {
   list-style: none;
   color: black;
-  font-size: 20px;
+  font-size: 50px;
   width: 100%;
-  padding: 0 16px;
+  margin: 0;
 }
 .menu__items {
   list-style: none;
   margin-top: 0;
   padding-left: 0;
+  margin-left: 20px;
 }
 .menu__bars {
   margin-left: 2rem;
@@ -83,6 +73,18 @@
   width: 95%;
   border-radius: 5px;
   color: black;
+}
+.menu__p {
+  letter-spacing: -0.05em;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+}
+.menu__number {
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-right: 10px;
+  margin-top: 9px;
 }
 .menu__toggle a {
   font-size: 20px;
@@ -98,8 +100,6 @@
 }
 @media only screen and (min-width: 624px) {
   .header__navMenu {
-    right: -70vw;
-    width: 20vw;
   }
   .header__name {
     margin-left: 34vw;
@@ -132,7 +132,7 @@
     margin-top: 25px;
     margin-bottom: 42px;
   }
-  .header__m {
+  .header__intro {
     flex-direction: column;
     align-items: center;
   }

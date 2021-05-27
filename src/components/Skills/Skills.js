@@ -14,7 +14,7 @@ function Skills() {
         <div className={style.skills__slide}>
           {SkillsMarquee.name.map((item, index) => {
             return (
-              <p className={style.skills__skills} key={index}>
+              <p className={style.skills__name} key={index}>
                 {item}
               </p>
             );
@@ -22,7 +22,7 @@ function Skills() {
         </div>
       </marquee>
       <div className={style.skills__table}>
-        <table>
+        <table className={style.skills__tableMain}>
           <tr>
             {SkillsData.firstGroup.map((item, index) => {
               return <td key={index}>{item}</td>;

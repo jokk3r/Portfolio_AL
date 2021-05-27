@@ -3,16 +3,11 @@
   width: 100%;
   padding-bottom: 20px;
 }
-.skills__wrap {
-}
 .skills__slide {
-  // overflow: hidden;
-  // overflow-x: scroll;
-  //   width: 5600px;
   display: flex;
   margin-left: -100vw;
 }
-.skills__skills {
+.skills__name {
   margin-top: 10px;
   font-size: 50px;
   margin-right: 15px;
@@ -22,7 +17,7 @@
   text-transform: uppercase;
   margin-bottom: 28px;
 }
-table {
+.skills__tableMain {
   margin-left: 20px;
   margin-right: 20px;
   border-collapse: collapse;
@@ -50,7 +45,7 @@ td:nth-child(2) {
   .skills__block {
     padding-bottom: 10vh;
   }
-  .skills__skills {
+  .skills__name {
     font-size: 10vw;
     margin-right: 53px;
   }
@@ -60,7 +55,7 @@ td:nth-child(2) {
   .skills__table {
     margin: 0 6vw;
   }
-  table {
+  .skills__tableMain {
     width: 79vw;
     font-size: 3vw;
   }
