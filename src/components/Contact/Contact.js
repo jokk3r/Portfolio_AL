@@ -7,10 +7,10 @@ function Contact() {
   return (
     <div className={style.contact__block} id="contact">
       <div className={style.contact__main}>
-        <div className={style.contact__head}>
+        <a className={style.contact__head} href={Data.linkToEmail}>
           <p className={style.contact__contact}>Contact</p>
           <p className={style.contact__me}>me</p>
-        </div>
+        </a>
         <a className={style.contact__link} href={Data.linkToEmail}>
           <img src={linkEmail} className={style.contact__arrow} alt="" />
           <p className={style.contact__Email}>{Data.email}</p>

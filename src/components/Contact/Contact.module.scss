@@ -1,11 +1,12 @@
+@import "./../variables.scss";
 .contact__block {
   width: 100%;
   padding-bottom: 30px;
   height: 100%;
   .contact__main {
-    width: 334px;
-    margin: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 90vw;
+    margin: 0 5.3vw;
+    border-bottom: 1px solid $borderColor;
     .contact__head {
       width: 334px;
       font-size: 50px;
@@ -13,12 +14,14 @@
       text-transform: uppercase;
       display: flex;
       margin-top: 50px;
+      text-decoration: none;
+      color: $textColor;
       .contact__contact {
         margin: 0;
       }
       .contact__me {
         -webkit-text-fill-color: transparent;
-        -webkit-text-stroke: 1px #ffffff;
+        -webkit-text-stroke: 1px $textColor;
         margin: 0;
         margin-left: 8px;
       }
@@ -36,7 +39,7 @@
         text-decoration: none;
         letter-spacing: -0.03em;
         font-size: 16px;
-        color: #ffffff;
+        color: $textColor;
       }
     }
   }
@@ -49,7 +52,7 @@
       text-transform: capitalize;
       .contact__link {
         text-decoration: none;
-        color: #ffffff;
+        color: $textColor;
         margin-right: 20px;
       }
     }
@@ -62,27 +65,26 @@
 
 @media only screen and (min-width: 768px) {
   .contact__block {
-    margin: 0 6vw;
-
-    width: 83vw;
-    min-height: 45vh;
+    width: 100vw;
+    min-height: 27vh;
     .contact__main {
-      width: 95%;
+      width: 89vw;
       padding-bottom: 30px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      border-bottom: 1px solid $borderColor;
       .contact__head {
-        max-width: 1334px;
         font-size: 11vw;
         letter-spacing: -0.05em;
         text-transform: uppercase;
         display: flex;
-        margin-top: 160px;
+        margin-top: 40px;
         .contact__me {
           margin-left: 26px;
         }
       }
+      .contact__link{
       .contact__Email {
-        font-size: 3vw !important;
+        font-size: 3vw;
+      }
       }
       .contact__arrow {
         width: 39.13px;
@@ -94,7 +96,9 @@
       margin-top: 30px;
       display: flex;
       justify-content: space-between;
-      width: 95%;
+      width: 89vw;
+      align-items: center;
+      margin-left: 5vw;
       .contact__link {
         font-size: 16px;
       }
@@ -104,11 +108,22 @@
     }
   }
 }
+
 @media only screen and (min-width: 1024px) {
-  .contact__link {
-    font-size: 1.5vw;
-  }
-  .contact__number {
-    font-size: 1.5vw;
+  .contact__block {
+    .contact__main {
+      width: 82vw;
+      // margin-left: 5.5vw;
+    }
+    .contact__info {
+      width: 82vw;
+      margin-left: 5.5vw;
+      .contact__link {
+        font-size: 1.5vw;
+      }
+      .contact__number {
+        font-size: 1.5vw;
+      }
+    }
   }
 }

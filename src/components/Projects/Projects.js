@@ -12,16 +12,18 @@ function Projects() {
       <div className="projects__list">
         {ProjectsData.map((item, index) => {
           return (
-            <div className="projects__item" key={index}>
-              <div className={item.cName}>
+            <div className={item.cName0} key={index}>
+              <div className={item.cName1}>
                 <img className={item.cName2} src={item.img} alt="" />
                 <p className="projects__name">{item.title}</p>
               </div>
-              <div className="projects__info">
+              <div className="projects__info hoverEff">
                 <div className="projects__skills">
                   <div className="projects__technologies">
-                    {item.skills.map((skill) => (
-                      <p className="projects__techName">{skill}</p>
+                    {item.skills.map((skill, index) => (
+                      <p className="projects__techName" key={index}>
+                        {skill}
+                      </p>
                     ))}
                   </div>
                   <a

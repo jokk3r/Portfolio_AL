@@ -11,7 +11,8 @@ export const Introduction = {
 
 export const ProjectsData = [
   {
-    cName: "projects__imgBlock",
+    cName0: "projects__item",
+    cName1: "projects__imgBlock",
     cName2: "projects__img",
     title: "checklist",
     skills: ["react", "nodejs", "mongoDB"],
@@ -21,8 +22,9 @@ export const ProjectsData = [
       " ToDo App is simple and awesome app to organize your tasks with very easy to use interface. ToDo can help you to make list of your tasks and also you can set Reminder with specific tasks.",
   },
   {
-    cName: "projects__imgBlockFinance",
-    cName2: "projects__Financeimg",
+    cName0: "projects__itemFinance",
+    cName1: "projects__imgBlockFinance",
+    cName2: "projects__FinanceImg",
     title: "MyFinance",
     skills: ["react"],
     link: "https://github.com/jokk3r/Financial-accounting",
@@ -30,8 +32,9 @@ export const ProjectsData = [
     description: "  In the app can keep records of costs and charges",
   },
   {
-    cName: "projects__imgBlockSocial",
-    cName2: "projects__Socialimg",
+    cName0: "projects__itemSocial",
+    cName1: "projects__imgBlockSocial",
+    cName2: "projects__SocialImg",
     title: "InContacts",
     skills: ["react", "redux", "axios"],
     link: "https://github.com/jokk3r/social_network",
@@ -40,8 +43,9 @@ export const ProjectsData = [
       "   In this app, I learn new things in react and write clean code, just like in a real project",
   },
   {
-    cName: "projects__imgBlockFinance",
-    cName2: "projects__Financeimg",
+    cName0: "projects__itemBasket",
+    cName1: "projects__imgBlockBasket",
+    cName2: "projects__BasketImg",
     title: "Store basket",
     skills: ["react", "redux"],
     link: "https://github.com/jokk3r/Sport-nutrition-store",
@@ -50,7 +54,8 @@ export const ProjectsData = [
       "In this project I tested how the online shopping basket works",
   },
   {
-    cName: "projects__imgBlock",
+    cName0: "projects__item projects_clean",
+    cName1: "projects__imgBlock",
     cName2: "projects__img",
     title: "CleanCode",
     skills: ["react", "firebase", "axios"],

@@ -1,3 +1,5 @@
+@import "./../variables.scss";
+
 //ANIMATION LEFT
 @-webkit-keyframes slideInLeft {
   0% {
@@ -46,8 +48,6 @@
   }
 }
 
-$textColor: #ffffff;
-
 .main__block {
   margin-top: 53px;
   display: block;
@@ -65,7 +65,7 @@ $textColor: #ffffff;
       -webkit-text-stroke: 1px $textColor;
       margin-top: 0;
       letter-spacing: -0.05em;
-      margin-left: 24px;
+      margin-left: 5.3vw;
       margin-bottom: 0;
       -webkit-animation-name: slideInLeft;
       animation-name: slideInLeft;
@@ -77,7 +77,7 @@ $textColor: #ffffff;
     .main__front {
       font-size: 50px;
       letter-spacing: -0.05em;
-      margin-left: 104px;
+      margin-left: 27.7vw;
       margin-bottom: 0;
       margin-top: 0;
       -webkit-animation-name: slideInRight;
@@ -90,7 +90,7 @@ $textColor: #ffffff;
     .main__develop {
       font-size: 50px;
       letter-spacing: -0.05em;
-      margin-left: 24px;
+      margin-left: 5.3vw;
       margin-bottom: 0;
       margin-top: 0;
       -webkit-animation-name: slideInLeft;
@@ -103,7 +103,7 @@ $textColor: #ffffff;
     .main__berlin {
       font-size: 16px;
       letter-spacing: -0.03em;
-      margin-left: 184px;
+      margin-left: 49vw;
       margin-top: 0;
       -webkit-animation-name: slideInRight;
       animation-name: slideInRight;
@@ -155,7 +155,7 @@ $textColor: #ffffff;
       z-index: 100;
       position: absolute;
       top: 265px;
-      left: 7.5vw;
+      left: 97px;
       .main__creative {
         font-size: 10vw;
         margin-left: 5vw;
@@ -212,5 +212,13 @@ $textColor: #ffffff;
   .main__block {
     margin-top: 0;
     height: 60vw;
+    .main__intro {
+      .main__creative {
+        margin-left: 5.5vw;
+      }
+      .main__develop {
+        margin-left: 5.5vw;
+      }
+    }
   }
 }

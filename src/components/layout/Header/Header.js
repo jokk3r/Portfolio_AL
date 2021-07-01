@@ -11,18 +11,33 @@ function Header() {
   const [width, setWidth] = useState(window.innerWidth);
   const showSidebar = () => setSidebar(!sidebar);
   const node = useRef();
+  const widthToShowSidebar = 1023;
   useOnClickOutside(node, () => setSidebar(false));
   return (
     <header className="header__main" ref={node}>
-      <div className="header__intro">
-        <a className="header__logo" href="#main">
-          <img src={logo} alt="" />
-        </a>
-        <div>
+      {width < widthToShowSidebar ? (
+        <>
+          <a className="header__logo" href="#main">
+            <img src={logo} alt="" />
+          </a>
+          <p className="header__name">ANDREAS LACKMANN</p>
+        </>
+      ) : (
+        <div className="header__intro">
+          <a className="header__logo" href="#main">
+            <img src={logo} alt="" />
+          </a>
+
           <p className="header__name">ANDREAS LACKMANN</p>
         </div>
-      </div>
-      {width < 1023 ? (
+      )}
+      {/* <a className="header__logo" href="#main">
+        <img src={logo} alt="" />
+      </a>
+
+      <p className="header__name">ANDREAS LACKMANN</p> */}
+
+      {width < widthToShowSidebar ? (
         <div className="header__nav" onClick={showSidebar}>
           {sidebar ? (
             <img src={cross} className="header__logoBurger" alt="" />
@@ -39,11 +54,6 @@ function Header() {
 
       <nav className={sidebar ? "header__navMenu active" : "header__navMenu"}>
         <ul className="menu__items">
-          {/* <li className="menu__toggle">
-            <a className="menu__item " onClick={showSidebar}>
-              <p>x</p>
-            </a>
-          </li> */}
           <li className="menu__text">
             <a href="#skills" className="menu__item">
               <p className="menu__p">

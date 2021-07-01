@@ -3,7 +3,6 @@ import style from "./Skills.module.scss";
 import { SkillsMarquee, SkillsData } from "./SkillsData";
 
 function Skills() {
-  console.log(SkillsMarquee);
   return (
     <div className={style.skills__block} id={"skills"}>
       <marquee
@@ -25,22 +24,22 @@ function Skills() {
         <table className={style.skills__tableMain}>
           <tr>
             {SkillsData.firstGroup.map((item, index) => {
-              return <td key={index}>{item}</td>;
+              return <td className={style.skills__tableMain} key={index}>{item}</td>;
             })}
           </tr>
           <tr>
             {SkillsData.secondGroup.map((item, index) => {
-              return <td key={index}>{item}</td>;
+              return <td className={style.skills__tableMain} key={index}>{item}</td>;
             })}
           </tr>
           <tr>
             {SkillsData.thirdGroup.map((item, index) => {
-              return <td key={index}>{item}</td>;
+              return <td className={style.skills__tableMain} key={index}>{item}</td>;
             })}
           </tr>
           <tr>
             {SkillsData.fourthGroup.map((item, index) => {
-              return <td key={index}>{item}</td>;
+              return <td className={style.skills__tableMain} key={index}>{item}</td>;
             })}
           </tr>
           <tr>
