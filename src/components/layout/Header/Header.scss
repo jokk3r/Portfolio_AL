@@ -44,7 +44,7 @@
     top: 53px;
     right: -110vw;
     transition: 850ms;
-    .active {
+    &.active {
       right: 0;
       transition: 350ms;
     }
@@ -82,20 +82,10 @@
     }
   }
 }
-// .menu__bars {
-//   margin-left: 2rem;
-//   font-size: 1.3rem;
-//   background: none;
-// }
-// .menu__toggle a {
-//   font-size: 20px;
-//   margin-top: 0;
-// }
 
 @media only screen and (min-width: 624px) {
   .header__main {
     .header__name {
-      margin-left: 34vw;
     }
 
     .header__navMenu {
