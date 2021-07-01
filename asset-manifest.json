@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio_AL/static/css/main.91c889ff.chunk.css",
-    "main.js": "/Portfolio_AL/static/js/main.4b915fad.chunk.js",
-    "main.js.map": "/Portfolio_AL/static/js/main.4b915fad.chunk.js.map",
+    "main.css": "/Portfolio_AL/static/css/main.1c3cebe7.chunk.css",
+    "main.js": "/Portfolio_AL/static/js/main.2c79c731.chunk.js",
+    "main.js.map": "/Portfolio_AL/static/js/main.2c79c731.chunk.js.map",
     "runtime-main.js": "/Portfolio_AL/static/js/runtime-main.6699f77b.js",
     "runtime-main.js.map": "/Portfolio_AL/static/js/runtime-main.6699f77b.js.map",
-    "static/js/2.1556deef.chunk.js": "/Portfolio_AL/static/js/2.1556deef.chunk.js",
-    "static/js/2.1556deef.chunk.js.map": "/Portfolio_AL/static/js/2.1556deef.chunk.js.map",
+    "static/js/2.4cf404e4.chunk.js": "/Portfolio_AL/static/js/2.4cf404e4.chunk.js",
+    "static/js/2.4cf404e4.chunk.js.map": "/Portfolio_AL/static/js/2.4cf404e4.chunk.js.map",
     "index.html": "/Portfolio_AL/index.html",
-    "static/css/main.91c889ff.chunk.css.map": "/Portfolio_AL/static/css/main.91c889ff.chunk.css.map",
-    "static/js/2.1556deef.chunk.js.LICENSE.txt": "/Portfolio_AL/static/js/2.1556deef.chunk.js.LICENSE.txt",
+    "static/css/main.1c3cebe7.chunk.css.map": "/Portfolio_AL/static/css/main.1c3cebe7.chunk.css.map",
+    "static/js/2.4cf404e4.chunk.js.LICENSE.txt": "/Portfolio_AL/static/js/2.4cf404e4.chunk.js.LICENSE.txt",
     "static/media/Star.6fcca9e1.svg": "/Portfolio_AL/static/media/Star.6fcca9e1.svg",
     "static/media/basket.ee3baa5f.png": "/Portfolio_AL/static/media/basket.ee3baa5f.png",
+    "static/media/burger.9030153f.svg": "/Portfolio_AL/static/media/burger.9030153f.svg",
     "static/media/cleancode.307a426e.png": "/Portfolio_AL/static/media/cleancode.307a426e.png",
+    "static/media/cross.276d3f72.svg": "/Portfolio_AL/static/media/cross.276d3f72.svg",
     "static/media/dot.190173ee.svg": "/Portfolio_AL/static/media/dot.190173ee.svg",
     "static/media/finance.b7269345.jpg": "/Portfolio_AL/static/media/finance.b7269345.jpg",
     "static/media/link.044a678b.svg": "/Portfolio_AL/static/media/link.044a678b.svg",
@@ -25,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6699f77b.js",
-    "static/js/2.1556deef.chunk.js",
-    "static/css/main.91c889ff.chunk.css",
-    "static/js/main.4b915fad.chunk.js"
+    "static/js/2.4cf404e4.chunk.js",
+    "static/css/main.1c3cebe7.chunk.css",
+    "static/js/main.2c79c731.chunk.js"
   ]
 }
