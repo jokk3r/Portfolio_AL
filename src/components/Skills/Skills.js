@@ -24,27 +24,47 @@ function Skills() {
         <table className={style.skills__tableMain}>
           <tr>
             {SkillsData.firstGroup.map((item, index) => {
-              return <td className={style.skills__tableMain} key={index}>{item}</td>;
+              return (
+                <td className={style.skills__tableMain} key={index}>
+                  {item}
+                </td>
+              );
             })}
           </tr>
           <tr>
             {SkillsData.secondGroup.map((item, index) => {
-              return <td className={style.skills__tableMain} key={index}>{item}</td>;
+              return (
+                <td className={style.skills__tableMain} key={index}>
+                  {item}
+                </td>
+              );
             })}
           </tr>
           <tr>
             {SkillsData.thirdGroup.map((item, index) => {
-              return <td className={style.skills__tableMain} key={index}>{item}</td>;
+              return (
+                <td className={style.skills__tableMain} key={index}>
+                  {item}
+                </td>
+              );
             })}
           </tr>
           <tr>
             {SkillsData.fourthGroup.map((item, index) => {
-              return <td className={style.skills__tableMain} key={index}>{item}</td>;
+              return (
+                <td className={style.skills__tableMain} key={index}>
+                  {item}
+                </td>
+              );
             })}
           </tr>
           <tr>
             {SkillsData.fifthGroup.map((item, index) => {
-              return <td key={index}>{item}</td>;
+              return (
+                <td className={style.skills__tableMain} key={index}>
+                  {item}
+                </td>
+              );
             })}
           </tr>
         </table>

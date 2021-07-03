@@ -154,17 +154,18 @@
     .main__intro {
       z-index: 100;
       position: absolute;
-      top: 265px;
-      left: 97px;
+      top: 186px;
+      left: 37px;
       .main__creative {
         font-size: 10vw;
         margin-left: 5vw;
+        margin-bottom: 15px;
       }
       .main__front {
         font-size: 10vw;
         letter-spacing: -0.05em;
         margin-left: 26vw;
-        margin-bottom: 0;
+        margin-bottom: 15px;
         margin-top: -30px;
       }
       .main__develop {

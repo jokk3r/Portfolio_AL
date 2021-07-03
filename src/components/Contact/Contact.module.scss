@@ -81,10 +81,10 @@
           margin-left: 26px;
         }
       }
-      .contact__link{
-      .contact__Email {
-        font-size: 3vw;
-      }
+      .contact__link {
+        .contact__Email {
+          font-size: 3vw;
+        }
       }
       .contact__arrow {
         width: 39.13px;
@@ -111,6 +111,7 @@
 
 @media only screen and (min-width: 1024px) {
   .contact__block {
+    width: 82vw;
     .contact__main {
       width: 82vw;
       // margin-left: 5.5vw;
