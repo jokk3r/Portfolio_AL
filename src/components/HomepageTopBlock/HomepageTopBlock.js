@@ -9,12 +9,12 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mainImg: "",
+      mainImg: MainMobile,
     };
   }
 
   componentDidMount() {
-    const width = window.innerWidth;
+    let width = window.innerWidth;
     const MOBILE_WIDTH = 767;
     if (width <= MOBILE_WIDTH) {
       this.setState({
