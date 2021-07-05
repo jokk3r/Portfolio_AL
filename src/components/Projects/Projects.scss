@@ -135,9 +135,9 @@
   $animate: all 0.2s ease-in-out;
   .projects__text {
     font-size: 4.6vw;
-    width: 47%;
+    width: 46vw;
     margin-right: 12vw;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
   .projects__list {
     display: flex;
@@ -271,6 +271,12 @@
 @media only screen and (min-width: 1024px) {
   .projects__block {
     margin: 0 5.1vw 0 5.5vw;
+  }
+  .projects__text {
+    font-size: 4.6vw;
+    width: 46vw;
+    margin-right: 7vw;
+    margin-bottom: 2vw;
   }
   .projects__list {
     display: flex;

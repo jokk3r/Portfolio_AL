@@ -11,23 +11,18 @@
 
 @media only screen and (min-width: 768px) {
   .about__block {
-    margin-bottom: 70px;
+    margin-bottom: 7vw;
+    margin-top: 7vw;
     .about__text {
       font-size: 3vw;
       width: 42vw;
-      margin-right: 14vw;
+      margin-right: 16vw;
     }
   }
 }
 @media only screen and (min-width: 1024px) {
   .about__block {
-    margin-top: 290px;
-  }
-}
-
-@media only screen and (min-width: 1258px) {
-  .about__block {
-    margin-bottom: 150px;
-    margin-top: 290px;
+    margin-top: 22vw;
+    margin-bottom: 11vw;
   }
 }
