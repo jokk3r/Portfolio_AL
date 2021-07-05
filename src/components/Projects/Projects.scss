@@ -286,61 +286,61 @@
   }
   .projects__item {
     display: inline-flex;
-    flex: 26vw 1;
     align-items: flex-start;
     justify-content: center;
-    width: 28vw;
-    height: 100%;
+    width: 44vw;
+    height: 55vw;
+    padding-right: 3vw;
   }
   .projects_clean {
-    margin-top: -200px;
+    margin-top: -248px;
+    margin-left: -35vw;
   }
   .projects__itemFinance {
     display: inline-flex;
-    flex: 8vw 1;
     align-items: flex-start;
     justify-content: center;
-    width: 28vw;
-    height: 100%;
-    margin-top: 30vw;
+    width: 35vw;
+    height: 54vw;
+    margin-top: 500px;
   }
   .projects__itemSocial {
     display: inline-flex;
-    flex: 26vw 1;
     align-items: flex-start;
     justify-content: center;
-    width: 28vw;
-    height: 100%;
-    margin-top: -407px;
+    width: 44vw;
+    height: 54vw;
+    margin-top: -485px;
+    padding-right: 3vw;
     .projects__info {
       width: 44vw;
     }
   }
   .projects__itemBasket {
     display: inline-flex;
-    flex: 8vw 1;
+
     align-items: flex-start;
     justify-content: center;
-    width: 28vw;
-    height: 100%;
+    width: 35vw;
+    height: 54vw;
   }
   .projects__img {
     width: 44vw;
-    height: 52vw;
+    height: 48vw;
     object-fit: cover;
   }
   .projects__FinanceImg {
-    width: 32vw;
+    width: 35vw;
     height: 46vw;
     object-fit: cover;
   }
   .projects__SocialImg {
     width: 44vw;
-    height: 45vw;
+    height: 47vw;
     object-fit: cover;
   }
   .projects__BasketImg {
-    width: 32vw;
+    width: 35vw;
     height: 46vw;
     object-fit: cover;
   }
@@ -350,17 +350,17 @@
     position: relative;
   }
   .projects__imgBlockFinance {
-    width: 32vw;
+    width: 35vw;
     height: 46vw;
     position: relative;
   }
   .projects__imgBlockSocial {
     width: 44vw;
-    height: 45vw;
+    height: 46vw;
     position: relative;
   }
   .projects__imgBlockBasket {
-    width: 32vw;
+    width: 35vw;
     height: 46vw;
     position: relative;
   }

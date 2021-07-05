@@ -40,7 +40,7 @@ export const ProjectsData = [
     link: "https://github.com/jokk3r/social_network",
     img: social,
     description:
-      "   In this app, I learn new things in react and write clean code, just like in a real project",
+      "   In this app, I learn new things in react and write clean code, i try to do it like in a real project",
   },
   {
     cName0: "projects__itemBasket",
@@ -51,7 +51,7 @@ export const ProjectsData = [
     link: "https://github.com/jokk3r/Sport-nutrition-store",
     img: basket,
     description:
-      "In this project I tested how the online shopping basket works",
+      "In this project I tested how redux works and implemented a project with a shopping basket",
   },
   {
     cName0: "projects__item projects_clean",
