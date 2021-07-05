@@ -62,14 +62,26 @@
     padding: 1vw 0;
   }
   .skills__tableMain:first-child {
-    padding-right: 0px;
-  }
-  .skills__tableMain:nth-child(2) {
-    padding-right: 70px;
+    padding-right: 1vw;
   }
 }
 @media only screen and (min-width: 1024px) {
   .skills__tableMain {
     width: 82vw;
+  }
+}
+@media only screen and (min-width: 1324px) {
+  .skills__tableMain:nth-child(2) {
+    padding-left: 1vw;
+  }
+}
+@media only screen and (min-width: 1424px) {
+  .skills__tableMain:nth-child(2) {
+    padding-left: 2vw;
+  }
+}
+@media only screen and (min-width: 1624px) {
+  .skills__tableMain:nth-child(2) {
+    padding-left: 3vw;
   }
 }

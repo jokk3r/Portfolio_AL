@@ -136,7 +136,7 @@
   .projects__text {
     font-size: 4.6vw;
     width: 46vw;
-    margin-right: 12vw;
+    margin-right: 14vw;
     margin-bottom: 60px;
   }
   .projects__list {
@@ -275,7 +275,7 @@
   .projects__text {
     font-size: 4.6vw;
     width: 46vw;
-    margin-right: 7vw;
+    margin-right: 3vw;
     margin-bottom: -2vw;
   }
   .projects__list {
@@ -369,5 +369,11 @@
   }
   .projects__item .projects__info {
     width: 44vw;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .projects__text {
+    margin-right: 4vw;
   }
 }
