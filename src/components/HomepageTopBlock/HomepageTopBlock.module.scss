@@ -155,17 +155,15 @@
       z-index: 100;
       position: absolute;
       top: 186px;
-      left: 37px;
+      left: 0;
       .main__creative {
         font-size: 10vw;
         margin-left: 5vw;
-        margin-bottom: 15px;
       }
       .main__front {
         font-size: 10vw;
         letter-spacing: -0.05em;
         margin-left: 26vw;
-        margin-bottom: 15px;
         margin-top: -30px;
       }
       .main__develop {
@@ -178,8 +176,8 @@
       .main__berlin {
         font-size: 2.5vw;
         letter-spacing: -0.03em;
-        margin-left: 7px;
-        margin-bottom: 2vw;
+        margin-left: 13px;
+        margin-bottom: 2.1vw;
         margin-top: -30px;
       }
     }
@@ -188,20 +186,19 @@
       right: 0;
       top: 82px;
       z-index: 0;
-      width: 77%;
+      width: 78%;
     }
     .main__star {
       left: 30vw;
       top: 54vw;
       .main__starImg {
-        width: 20vw;
-        height: 20vw;
+        width: 17vw;
+        height: 25.4vw;
       }
       .main__check {
-        font-size: 1.5vw;
-        left: 3.5vw;
-        top: -11vw;
-        padding-bottom: 8px;
+        font-size: 1.3vw;
+        left: 2.9vw;
+        top: -14.2vw;
         border-bottom: 1px solid $textColor;
         transform: rotate(-15deg);
         text-transform: uppercase;
@@ -214,13 +211,13 @@
     margin-top: 0;
     height: 60vw;
     .main__intro {
-      top: 186px;
+      top: 19vw;
       left: 97px;
       .main__creative {
-        margin-left: 5.5vw;
+        margin-left: 6.5vw;
       }
       .main__develop {
-        margin-left: 5.5vw;
+        margin-left: 6.5vw;
       }
     }
   }

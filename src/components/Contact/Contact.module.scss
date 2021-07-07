@@ -85,11 +85,11 @@
         .contact__Email {
           font-size: 3vw;
         }
-      }
-      .contact__arrow {
-        width: 39.13px;
-        height: 25.04px;
-        margin-right: 30px;
+        .contact__arrow {
+          width: 39.13px;
+          height: 25.04px;
+          margin-right: 30px;
+        }
       }
     }
     .contact__info {
@@ -111,20 +111,34 @@
 
 @media only screen and (min-width: 1024px) {
   .contact__block {
+    width: 79vw;
+    margin: 0 6.5vw;
     margin-top: 14vw;
-    width: 82vw;
     .contact__main {
-      width: 82vw;
-      padding-bottom: 6vw;
+      width: 79vw;
+      padding-bottom: 5vw;
+      margin: 0;
     }
     .contact__info {
-      width: 82vw;
-      margin-left: 5.5vw;
+      width: 79vw;
+      margin: 1vw 0;
+      align-items: flex-start;
       .contact__link {
         font-size: 1.5vw;
       }
       .contact__number {
         font-size: 1.5vw;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1524px) {
+  .contact__block {
+    width: 81vw;
+    .contact__main {
+      width: 81vw;
+      .contact__info {
+        width: 81vw;
       }
     }
   }

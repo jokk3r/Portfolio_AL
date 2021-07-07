@@ -14,7 +14,7 @@
   margin-right: 20px;
   letter-spacing: -0.03em;
   margin-bottom: 28px;
-  line-height: 130%;
+  line-height: 120%;
 }
 .projects__list {
   width: 100%;
@@ -79,23 +79,23 @@
 .projects__img {
   width: 89vw;
   height: 101vw;
-  transition: 1s;
+  transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .projects__FinanceImg {
   width: 89vw;
   height: 125vw;
-  transition: 1s;
+  transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .projects__SocialImg {
   height: 81vw;
   width: 89vw;
-  transition: 1s;
+  transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
   color: $textColorBlack;
 }
 .projects__BasketImg {
   width: 89vw;
   height: 125vw;
-  transition: 1s;
+  transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .projects__name {
   font-size: 16px;
@@ -129,6 +129,7 @@
 .projects__describeText {
   margin-top: 6px;
   margin-bottom: 23px;
+  line-height: 120%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -267,100 +268,119 @@
       }
     }
   }
+  .projects__techName {
+    font-size: 1.1vw;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
+    line-height: 120%;
+    margin-top: 0;
+    margin-bottom: 21px;
+  }
+  .projects__describeText {
+    line-height: 120%;
+    font-size: 1.2vw;
+    width: 69%;
+    margin-top: 2px;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .projects__block {
-    margin: 0 5.1vw 0 5.5vw;
+    margin: 0 6.5vw 0 6.5vw;
   }
   .projects__text {
     font-size: 4.6vw;
     width: 46vw;
     margin-right: 3vw;
-    margin-bottom: -2vw;
   }
   .projects__list {
     display: flex;
-    width: 82vw;
+    width: 79vw;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10vw;
   }
   .projects__item {
     display: inline-flex;
     align-items: flex-start;
     justify-content: center;
     width: 44vw;
-    height: 55vw;
-    padding-right: 3vw;
+    height: 64vw;
+    margin-right: 4.4vw;
+    margin-bottom: 30px;
   }
   .projects_clean {
-    margin-top: -248px;
-    margin-left: -35vw;
+    margin-top: -11vw;
   }
   .projects__itemFinance {
     display: inline-flex;
     align-items: flex-start;
-    justify-content: center;
-    width: 35vw;
-    height: 54vw;
-    margin-top: 500px;
+    justify-content: flex-start;
+    width: 30.5vw;
+    height: 57.5vw;
+    margin-top: 14vw;
+    margin-bottom: 30px;
   }
   .projects__itemSocial {
     display: inline-flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     width: 44vw;
-    height: 54vw;
-    margin-top: -485px;
-    padding-right: 3vw;
+    height: 51vw;
+    margin-top: -6.5vw;
+    margin-right: 4.4vw;
+    margin-bottom: 0;
+    margin-bottom: 30px;
     .projects__info {
       width: 44vw;
     }
   }
   .projects__itemBasket {
     display: inline-flex;
-
     align-items: flex-start;
-    justify-content: center;
-    width: 35vw;
-    height: 54vw;
+    justify-content: flex-start;
+    width: 30.5vw;
+    height: 58.5vw;
+    margin-bottom: 0;
   }
   .projects__img {
     width: 44vw;
-    height: 48vw;
+    height: 51vw;
     object-fit: cover;
   }
   .projects__FinanceImg {
-    width: 35vw;
+    width: 30.5vw;
     height: 46vw;
     object-fit: cover;
   }
   .projects__SocialImg {
     width: 44vw;
-    height: 47vw;
+    height: 41vw;
     object-fit: cover;
   }
   .projects__BasketImg {
-    width: 35vw;
+    width: 30.5vw;
     height: 46vw;
     object-fit: cover;
   }
   .projects__imgBlock {
     width: 44vw;
-    height: 47vw;
+    height: 53vw;
     position: relative;
   }
   .projects__imgBlockFinance {
-    width: 35vw;
+    width: 30.5vw;
     height: 46vw;
     position: relative;
   }
   .projects__imgBlockSocial {
     width: 44vw;
-    height: 46vw;
+    height: 41vw;
     position: relative;
   }
   .projects__imgBlockBasket {
-    width: 35vw;
+    width: 30.5vw;
     height: 46vw;
     position: relative;
   }
@@ -368,7 +388,7 @@
     width: 100%;
   }
   .projects__skills {
-    margin-top: 1.5vw;
+    margin-top: 3vw;
   }
   .projects__item .projects__info {
     width: 44vw;
@@ -376,7 +396,29 @@
 }
 
 @media only screen and (min-width: 1224px) {
-  .projects__text {
-    margin-right: 4vw;
+  //   .projects_clean {
+  //     margin-top: -167px;
+  //   }
+
+  //   .projects__itemSocial {
+  //     margin-top: -85px;
+  //   }
+}
+@media only screen and (min-width: 1524px) {
+  .projects__list {
+    width: 81vw;
   }
+  .projects__item {
+    margin-right: 6.5vw;
+  }
+  .projects__itemSocial {
+    margin-right: 6.5vw;
+  }
+  // .projects_clean {
+  //   margin-top: -175px;
+  // }
+
+  // .projects__itemSocial {
+  //   margin-top: -146px;
+  // }
 }

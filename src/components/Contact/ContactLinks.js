@@ -3,7 +3,7 @@ import React from "react";
 export const Data = {
   linkToEmail: "mailto:Andreas_lackmann@hotmail.com",
   email: "Andreas_lackmann@hotmail.com",
-  number: "+4917664819043",
+  number: "+49 17664819043",
 };
 export const ContactLinks = [
   { link: "https://www.linkedin.com/in/andreaslackmann/", name: "linkedin" },
