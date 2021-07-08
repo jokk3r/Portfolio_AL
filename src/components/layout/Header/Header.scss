@@ -35,7 +35,7 @@
   .header__navMenu {
     background-color: $textColor;
     width: 100%;
-    height: 27vh;
+    height: 28vh;
     display: flex;
     justify-content: flex-start;
     position: fixed;
@@ -48,15 +48,16 @@
     }
     .menu__items {
       list-style: none;
-      margin-top: 10px;
+      margin-top: 22px;
       padding-left: 0;
       margin-left: 20px;
       .menu__text {
         list-style: none;
         color: black;
-        font-size: 50px;
+        font-size: 42px;
         width: 100%;
         margin: 0;
+        margin-bottom: 5px;
         .menu__item {
           text-decoration: none;
           text-transform: uppercase;

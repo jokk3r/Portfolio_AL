@@ -31,11 +31,6 @@ function Header() {
           <p className="header__name">ANDREAS LACKMANN</p>
         </div>
       )}
-      {/* <a className="header__logo" href="#main">
-        <img src={logo} alt="" />
-      </a>
-
-      <p className="header__name">ANDREAS LACKMANN</p> */}
 
       {width < widthToShowSidebar ? (
         <div className="header__nav" onClick={showSidebar}>
