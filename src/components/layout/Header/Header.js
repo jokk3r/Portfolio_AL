@@ -48,7 +48,7 @@ function Header() {
         </a>
       )}
 
-      <nav className={sidebar ? "header__navMenu active" : "header__navMenu"}>
+      {/* <nav className={sidebar ? "header__navMenu active" : "header__navMenu"}>
         <ul className="menu__items">
           <li className="menu__text">
             <a href="#skills" className="menu__item">
@@ -72,7 +72,7 @@ function Header() {
             </a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </header>
   );
 }
