@@ -33,12 +33,12 @@
     }
   }
   .header__navMenu {
-    background-color: $textColor;
-    width: 100vw;
-    height: 28vh;
     display: flex;
     justify-content: flex-start;
     position: fixed;
+    width: 100vw;
+    height: 28vh;
+    background-color: $textColor;
     top: 53px;
     right: -110vw;
     transition: 850ms;
