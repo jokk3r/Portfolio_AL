@@ -152,8 +152,9 @@
   .main__block {
     margin-top: 53px;
     height: 75vw;
-
+    width: 95vw;
     .main__intro {
+      width: 95vw;
       z-index: 100;
       position: absolute;
       top: 186px;
@@ -185,7 +186,7 @@
       right: 0;
       top: 82px;
       z-index: 0;
-      width: 78%;
+      width: 88%;
     }
     .main__star {
       left: 30vw;
@@ -209,7 +210,9 @@
   .main__block {
     margin-top: 0;
     height: 80vw;
+    width: 90vw;
     .main__intro {
+      width: 90vw;
       top: 19vw;
       left: 97px;
       .main__creative {
@@ -222,9 +225,12 @@
         margin-top: -2vw;
         margin-left: 6.5vw;
         .main__develop {
-          margin-left: 6.5vw;
+          margin-left: 0;
         }
       }
+    }
+    .main__img {
+      width: 78%;
     }
   }
 }
