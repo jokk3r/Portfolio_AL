@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./Header.scss";
 import logo from "./../../assets/logos/logo.svg";
 import Burger from "./../../assets/logos/burger.svg";
@@ -15,6 +15,7 @@ function Header() {
   useOnClickOutside(node, () => setSidebar(false));
   return (
     <header className="header__main" ref={node}>
+      {setWidth}
       {width < widthToShowSidebar ? (
         <>
           <a className="header__logo" href="#main">
