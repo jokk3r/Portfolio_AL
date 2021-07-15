@@ -3,9 +3,9 @@ import React from "react";
 export const SkillsMarquee = {
   name: [
     "Skills",
-    "Fähigkeiten",
-    "Skills",
     "Умения",
+    "Skills",
+    "Fähigkeiten",
     "Skills",
     "habilidades",
     "Skills",
