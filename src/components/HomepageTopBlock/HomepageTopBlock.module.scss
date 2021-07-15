@@ -58,6 +58,8 @@
     z-index: 100;
     position: absolute;
     top: 110px;
+    width: 100vw;
+    overflow: hidden;
     .main__creative {
       font-size: 50px;
       font-weight: 400;
@@ -86,7 +88,6 @@
       animation-duration: 1s;
       -webkit-animation-fill-mode: both;
       animation-fill-mode: both;
-      overflow: hidden;
     }
     .main__develop {
       font-size: 50px;
@@ -112,7 +113,6 @@
       animation-duration: 1s;
       -webkit-animation-fill-mode: both;
       animation-fill-mode: both;
-      overflow: hidden;
     }
     .main__developerIn {
       display: flex;
