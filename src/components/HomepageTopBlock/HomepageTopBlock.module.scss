@@ -53,12 +53,12 @@
   display: block;
   width: 100vw;
   height: 500px;
+  overflow: hidden;
   .main__intro {
     text-transform: uppercase;
     z-index: 100;
     position: absolute;
     top: 110px;
-    overflow: hidden;
     .main__creative {
       font-size: 50px;
       font-weight: 400;
@@ -87,7 +87,6 @@
       animation-duration: 1s;
       -webkit-animation-fill-mode: both;
       animation-fill-mode: both;
-      overflow: hidden;
     }
     .main__develop {
       font-size: 50px;
@@ -113,7 +112,6 @@
       animation-duration: 1s;
       -webkit-animation-fill-mode: both;
       animation-fill-mode: both;
-      overflow: hidden;
     }
     .main__developerIn {
       display: flex;
@@ -218,18 +216,12 @@
       }
       .main__front {
         margin-top: -2vw;
-        -webkit-animation-name: slideInRight;
-        animation-name: slideInRight;
       }
       .main__developerIn {
         margin-top: -2vw;
         margin-left: 6.5vw;
         .main__develop {
           margin-left: 6.5vw;
-        }
-        .main__berlin {
-          -webkit-animation-name: slideInRight;
-          animation-name: slideInRight;
         }
       }
     }
