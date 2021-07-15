@@ -51,7 +51,7 @@
 .main__block {
   margin-top: 53px;
   display: block;
-  width: 100%;
+  width: 100vw;
   height: 500px;
   .main__intro {
     text-transform: uppercase;
@@ -150,7 +150,7 @@
   .main__block {
     margin-top: 53px;
     height: 75vw;
-    width: 100%;
+
     .main__intro {
       z-index: 100;
       position: absolute;
@@ -220,7 +220,7 @@
         margin-top: -2vw;
         margin-left: 6.5vw;
         .main__develop {
-          margin-left: 0;
+          margin-left: 6.5vw;
         }
       }
     }
