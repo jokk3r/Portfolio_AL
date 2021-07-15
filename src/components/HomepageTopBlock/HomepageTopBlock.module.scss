@@ -215,12 +215,18 @@
       }
       .main__front {
         margin-top: -2vw;
+        -webkit-animation-name: slideInRight;
+        animation-name: slideInRight;
       }
       .main__developerIn {
         margin-top: -2vw;
         margin-left: 6.5vw;
         .main__develop {
           margin-left: 6.5vw;
+        }
+        .main__berlin {
+          -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
         }
       }
     }
