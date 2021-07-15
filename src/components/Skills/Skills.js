@@ -5,7 +5,7 @@ import { SkillsMarquee, SkillsData } from "./SkillsData";
 function Skills() {
   return (
     <div className={style.skills__block} id={"skills"}>
-      <marquee
+      {/* <marquee
         behavior="scroll"
         direction="left"
         className={style.skills__wrap}
@@ -19,7 +19,7 @@ function Skills() {
             );
           })}
         </div>
-      </marquee>
+      </marquee> */}
       <div className={style.skills__table}>
         <table className={style.skills__tableMain}>
           <tr>
