@@ -1,12 +1,12 @@
 @import "./../../variables.scss";
 
 .header__main {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
   height: 53px;
-  position: fixed;
   background-color: $textColor;
   color: black;
   top: 0;
