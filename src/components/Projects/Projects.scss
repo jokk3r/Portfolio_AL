@@ -228,9 +228,7 @@
     width: 90vw;
     height: 134vw;
   }
-  .projects__name {
-    font-size: 40px;
-  }
+
   .projects__intro {
     width: 100%;
     display: flex;
@@ -239,6 +237,7 @@
   .projects__name {
     left: 44px;
     bottom: 36px;
+    font-size: 3vw;
   }
   .projects__info {
     width: 90vw;
@@ -270,16 +269,16 @@
     }
   }
   .projects__techName {
-    font-size: 1.1vw;
+    font-size: 2.1vw;
     padding: 3px 10px 3px 10px;
     border-radius: 20px;
     line-height: 120%;
     margin-top: 0;
-    margin-bottom: 21px;
+    margin-bottom: 29px;
   }
   .projects__describeText {
     line-height: 120%;
-    font-size: 1.2vw;
+    font-size: 2.2vw;
     width: 69%;
     margin-top: 2px;
   }
@@ -312,7 +311,7 @@
     margin-bottom: 30px;
   }
   .projects_clean {
-    margin-top: -11vw;
+    margin-top: -7vw;
   }
   .projects__itemFinance {
     display: inline-flex;
@@ -328,7 +327,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     width: 44vw;
-    height: 51vw;
+    height: 54vw;
     margin-top: -6.5vw;
     margin-right: 4.4vw;
     margin-bottom: 0;
@@ -385,6 +384,9 @@
     height: 46vw;
     position: relative;
   }
+  .projects__name {
+    font-size: 2vw;
+  }
   .projects__info {
     width: 100%;
   }
@@ -394,16 +396,22 @@
   .projects__item .projects__info {
     width: 44vw;
   }
+  .projects__techName {
+    margin-bottom: 21px;
+    font-size: 1.1vw;
+  }
+  .projects__describeText {
+    font-size: 1.1vw;
+  }
 }
 
 @media only screen and (min-width: 1224px) {
-  //   .projects_clean {
-  //     margin-top: -167px;
-  //   }
-
-  //   .projects__itemSocial {
-  //     margin-top: -85px;
-  //   }
+  .projects_clean {
+    margin-top: -10vw;
+  }
+  .projects__name {
+    font-size: 3vw;
+  }
 }
 @media only screen and (min-width: 1524px) {
   .projects__list {
@@ -415,11 +423,7 @@
   .projects__itemSocial {
     margin-right: 6.5vw;
   }
-  // .projects_clean {
-  //   margin-top: -175px;
-  // }
-
-  // .projects__itemSocial {
-  //   margin-top: -146px;
-  // }
+  .projects_clean {
+    margin-top: -11vw;
+  }
 }
