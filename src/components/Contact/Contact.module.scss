@@ -10,7 +10,7 @@
     border-bottom: 1px solid $borderColor;
     .contact__head {
       width: 334px;
-      font-size: 50px;
+      font-size: 13.5vw;
       letter-spacing: -0.05em;
       text-transform: uppercase;
       display: flex;
@@ -39,27 +39,28 @@
       .contact__Email {
         text-decoration: none;
         letter-spacing: -0.03em;
-        font-size: 16px;
+        font-size: 5vw;
         color: $textColor;
       }
     }
   }
   .contact__info {
-    margin: 20px;
+    margin: 5vw;
     .contact__links {
       text-decoration: none;
       display: flex;
-      margin-bottom: 20px;
+      margin-bottom: 4vw;
       text-transform: capitalize;
       .contact__link {
         text-decoration: none;
         color: $textColor;
         margin-right: 20px;
+        font-size: 4vw;
       }
     }
     .contact__number {
       letter-spacing: -0.02em;
-      font-size: 16px;
+      font-size: 4vw;
     }
   }
 }

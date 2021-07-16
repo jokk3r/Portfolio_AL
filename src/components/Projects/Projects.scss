@@ -9,9 +9,9 @@
   justify-content: flex-end;
 }
 .projects__text {
-  width: 62vw;
-  font-size: 28px;
-  margin-right: 5.3vw;
+  width: 66vw;
+  font-size: 7vw;
+  margin-right: 5vw;
   letter-spacing: -0.03em;
   margin-bottom: 28px;
   line-height: 120%;
@@ -20,94 +20,98 @@
   width: 100%;
 }
 .projects__item {
-  margin: 0 5.3vw;
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 90vw;
+  height:131vw;
+  margin: 0 5vw;
+  margin-top: 7vw;
   border-bottom: 1px solid $borderColor;
 }
 .projects__itemFinance {
-  margin: 0 5.3vw;
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 90vw;
+  height: 133vw;
+  margin: 0 5vw;
+  margin-top: 7vw;
   border-bottom: 1px solid $borderColor;
 }
 .projects__itemSocial {
-  margin: 0 5.3vw;
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 90vw;
+  height:106vw;
+  margin: 0 5vw;
+  margin-top: 7vw;
   border-bottom: 1px solid $borderColor;
 }
 .projects__itemBasket {
-  margin: 0 5.3vw;
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  width: 90%;
+  height: 149vw;
+  width: 90vw;
+  margin: 0 5vw;
+  margin-top: 7vw;
   border-bottom: 1px solid $borderColor;
 }
 .projects__imgBlock {
-  width: 89vw;
-  height: 364px;
+  width: 90vw;
+  height: 98vw;
   position: relative;
   overflow: hidden;
 }
 .projects__imgBlockFinance {
-  width: 89vw;
-  height: 454px;
+  width: 90vw;
+  height: 110vw;
   position: relative;
   overflow: hidden;
 }
 .projects__imgBlockSocial {
-  width: 89vw;
-  height: 304px;
+  width: 90vw;
+  height: 80vw;
   position: relative;
   overflow: hidden;
   color: $textColorBlack;
 }
 .projects__imgBlockBasket {
-  width: 89vw;
-  height: 454px;
+  width: 90vw;
+  height: 123vw;
   position: relative;
   overflow: hidden;
 }
 .projects__img {
-  width: 89vw;
+  width: 90vw;
   height: 101vw;
   transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .projects__FinanceImg {
-  width: 89vw;
+  width: 90vw;
   height: 125vw;
   transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .projects__SocialImg {
   height: 81vw;
-  width: 89vw;
+  width: 90vw;
   transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
   color: $textColorBlack;
 }
 .projects__BasketImg {
-  width: 89vw;
+  width: 90vw;
   height: 125vw;
   transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .projects__name {
-  font-size: 16px;
+  font-size: 4.5vw;
   position: absolute;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  left: 24px;
-  bottom: 18px;
+  left: 4vw;
+  bottom: 3.5vw;
   margin-bottom: 0px;
 }
 .projects__info {
-  width: 89vw;
+  width: 90vw;
 }
 .projects__skills {
   display: flex;
@@ -118,19 +122,22 @@
   display: flex;
 }
 .projects__techName {
-  font-size: 12px;
+  font-size: 2vw;
   margin-right: 12px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   border: 1px solid $borderColor;
   padding: 5px;
   border-radius: 13px;
+  margin-top: 0;
+  margin-bottom: 23px;
 }
 .projects__describeText {
   margin-top: 6px;
   margin-bottom: 23px;
   line-height: 120%;
   width: 71vw;
+  font-size: 3vw;
 }
 
 @media only screen and (min-width: 768px) {

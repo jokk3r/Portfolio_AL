@@ -12,7 +12,7 @@
   top: 0;
   z-index: 1000;
   .header__logo {
-    margin-left: 18px;
+    margin-left: 5vw;
     margin-top: 4px;
   }
   .header__name {
@@ -21,7 +21,7 @@
   }
   .header__nav {
     display: flex;
-    margin-right: 20px;
+    margin-right: 5vw;
     cursor: pointer;
     .header__logoBurger {
       margin: 3px;
@@ -33,7 +33,7 @@
     justify-content: flex-start;
     position: fixed;
     width: 100vw;
-    height: 28vh;
+    height: 32vh;
     background-color: $textColor;
     top: 53px;
     right: -100vw;
@@ -44,16 +44,16 @@
     }
     .menu__items {
       list-style: none;
-      margin-top: 22px;
+      margin-top: 4vw;
       padding-left: 0;
-      margin-left: 20px;
+      margin-left: 5.3vw;
       .menu__text {
         list-style: none;
         color: black;
         font-size: 42px;
         width: 100%;
         margin: 0;
-        margin-bottom: 5px;
+        margin-bottom: 4vw;
         .menu__item {
           text-decoration: none;
           text-transform: uppercase;
