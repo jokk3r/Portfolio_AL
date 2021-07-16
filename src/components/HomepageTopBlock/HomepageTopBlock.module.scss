@@ -52,14 +52,16 @@
   margin-top: 53px;
   display: block;
   width: 100vw;
-  height: 96vw;
+  height: 127vw;
+  max-height: 800px;
   .main__intro {
     text-transform: uppercase;
     z-index: 100;
     position: absolute;
-    top: 38vw;
+    top: 100px;
     width: 100vw;
     overflow: hidden;
+    margin-top: 6vw;
     .main__creative {
       font-size: 13.5vw;
       font-weight: 400;
@@ -125,6 +127,7 @@
     top: 82px;
     z-index: 0;
     width:84vw;
+    height: 85vw;
   }
   .main__star {
     position: relative;
@@ -154,12 +157,14 @@
     margin-top: 53px;
     height: 86vw;
     width: 95vw;
+    max-height:fit-content;
     .main__intro {
       width: 95vw;
       z-index: 100;
       position: absolute;
       top: 186px;
       left: 0;
+      margin-top: 0;
       .main__creative {
         font-size: 10vw;
         margin-left: 5vw;
@@ -188,6 +193,7 @@
       top: 82px;
       z-index: 0;
       width: 88%;
+      height: auto;
     }
     .main__star {
       left: 30vw;
