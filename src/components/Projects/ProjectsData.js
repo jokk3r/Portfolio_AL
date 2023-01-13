@@ -1,9 +1,10 @@
-import React from "react";
 import finance from "./../assets/img/projects/finance.jpg";
 import todo from "./../assets/img/projects/todo.png";
 import social from "./../assets/img/projects/social1.png";
 import cleancode from "./../assets/img/projects/cleancode.png";
 import basket from "./../assets/img/projects/basket.png";
+import pizza from "./../assets/img/projects/pizza.png";
+import statistics from "./../assets/img/projects/statistics.png";
 
 export const Introduction = {
   text: " BELOW YOU CAN SEE SOME OF THE PROJECTS I'VE WORKED IN",
@@ -54,7 +55,7 @@ export const ProjectsData = [
       "In this project I tested how redux works and implemented a project with a shopping basket",
   },
   {
-    cName0: "projects__item projects_clean",
+    cName0: "projects__item projects__clean",
     cName1: "projects__imgBlock",
     cName2: "projects__img",
     title: "CleanCode",
@@ -63,5 +64,26 @@ export const ProjectsData = [
     img: cleancode,
     description:
       " Cleancode is a web platform to exchange about clean coding and everything around it. Register, post working code and ask anything you want about clean coding, conventions, naminng   refactoring or related topic. Or respond to existing posts.",
+  },
+  {
+    cName0: "projects__itemBasket",
+    cName1: "projects__imgBlockBasket",
+    cName2: "projects__BasketImg",
+    title: "World of Pizza",
+    skills: ["react","axios", "redux", "skeleton"],
+    link: "https://github.com/jokk3r/World-Pizza",
+    img: pizza,
+    description: "Pizza shop is advanced project to practice my skills with React JS.",
+  },
+  {
+    cName0: "projects__item projects__stat",
+    cName1: "projects__imgBlock",
+    cName2: "projects__img",
+    title: "Statistics",
+    skills: ["react", "figma", "responsive"],
+    link: "https://github.com/jokk3r/Statistics",
+    img: statistics,
+    description:
+      "I just found a design project and brought it to life. The design only includes a desktop version. That's why I also developed this project as a desktop first, so the mobile version is my vision.",
   },
 ];

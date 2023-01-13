@@ -1,4 +1,3 @@
-import React from "react";
 
 export const Data = {
   linkToEmail: "mailto:Andreas_lackmann@hotmail.com",
@@ -8,5 +7,5 @@ export const Data = {
 export const ContactLinks = [
   { link: "https://www.linkedin.com/in/andreaslackmann/", name: "linkedin" },
   { link: "https://github.com/jokk3r", name: "github" },
-  { link: "https://www.facebook.com/andrey.lakman", name: "facebook" },
+  { link: "https://www.instagram.com/al_jokk3/", name: "instagram" },
 ];

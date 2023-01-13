@@ -14,7 +14,7 @@ function Projects() {
           return (
             <div className={item.cName0} key={index}>
               <div className={item.cName1}>
-                <img className={item.cName2} src={item.img} alt="" />
+                <img className={item.cName2} src={item.img} alt="project-preview" />
                 <p className="projects__name">{item.title}</p>
               </div>
               <div className="projects__info hoverEff">
@@ -30,8 +30,9 @@ function Projects() {
                     className="projects__link"
                     href={item.link}
                     target="_blank"
+                    rel="noreferrer"
                   >
-                    <img className="projects__linkImg" src={link} alt="" />
+                    <img className="projects__linkImg" src={link} alt="link to project" />
                   </a>
                 </div>
                 <div className="projects__describe">

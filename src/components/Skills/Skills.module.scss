@@ -1,68 +1,73 @@
 @import "./../variables.scss";
 
-.skills__block {
-  margin-top: 10px;
-  width: 100%;
-  padding-bottom: 11vw;
-}
-.skills__slide {
-  display: flex;
-  margin-left: -100vw;
-}
-.skills__name {
-  margin-top: 10px;
-  font-size: 13.5vw;
-  margin-right: 15px;
-  letter-spacing: -0.05em;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px $textColor;
-  text-transform: uppercase;
-  margin-bottom: 28px;
-}
-.skills__tableMain {
-  margin-left: 5vw;
-  margin-right: 5vw;
-  border-collapse: collapse;
-  width: 90vw;
-  text-transform: uppercase;
-  font-size: 5vw;
-  letter-spacing: -0.03em;
+.skills{
+
+  &__block {
+    margin-top: 10px;
+    width: 100%;
+    padding-bottom: 11vw;
+  }
+
+  &__slide {
+    display: flex;
+    margin-left: -100vw;
+  }
+
+  &__name {
+    margin-top: 10px;
+    font-size: 13.5vw;
+    margin-right: 15px;
+    letter-spacing: -0.05em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px $textColor;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+
+  &__tableMain {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-collapse: collapse;
+    width: 90vw;
+    text-transform: uppercase;
+    font-size: 5vw;
+    letter-spacing: -0.03em;
+  }
+  
+  &__tableMain {
+    border-bottom: 1px solid $borderColor;
+    padding: 7px 0;
+    
+    &:first-child {
+      border-top: 1px solid $borderColor;
+    }
+  }
 }
 
-.skills__tableMain {
-  border-bottom: 1px solid $borderColor;
-  padding: 7px 0;
-}
-.skills__tableMain:first-child {
-  border-top: 1px solid $borderColor;
-}
-.skills__tableMain:nth-child(3) {
-  border-top: 1px solid $borderColor;
-}
-.skills__tableMain:nth-child(2) {
-  border-top: 1px solid $borderColor;
-}
 
 @media only screen and (min-width: 768px) {
-  .skills__block {
-    padding-bottom: 10vw;
-  }
-  .skills__name {
-    font-size: 10vw;
-    margin-right: 53px;
-  }
-  .skills__slide::-webkit-scrollbar {
-    width: 0;
-  }
-  .skills__tableMain {
-    width: 90vw;
-    font-size: 3vw;
-  }
-  .skills__tableMain {
-    padding: 1vw 0;
-  }
-  .skills__tableMain:first-child {
-    padding-right: 1vw;
+  .skills{
+
+    &__block {
+      padding-bottom: 10vw;
+    }
+    &__name {
+      font-size: 10vw;
+      margin-right: 53px;
+    }
+    &__slide::-webkit-scrollbar {
+      width: 0;
+    }
+    &__tableMain {
+      width: 90vw;
+      font-size: 3vw;
+    }
+    &__tableMain {
+      padding: 1vw 0;
+      &:first-child {
+        padding-right: 1vw;
+      }
+    }
   }
 }
 @media only screen and (min-width: 1024px) {

@@ -1,4 +1,3 @@
-import React from "react";
 
 export const SkillsMarquee = {
   name: [
@@ -30,5 +29,5 @@ export const SkillsData = {
   secondGroup: ["Express", "SQL", "NPM"],
   thirdGroup: ["Photoshop", "Figma", "Json"],
   fourthGroup: ["React", "Redux", "Vue JS"],
-  fifthGroup: ["Git", "Terminal", "SASS"],
+  fifthGroup: ["Git", "Axios", "SCSS"],
 };
