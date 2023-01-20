@@ -1,5 +1,7 @@
 I would like to present my website - portfolio 
 
+"src/components/assets/img/portfolio-prev.jpg"
+
 You can view it here: https://jokk3r.github.io/Portfolio_AL/
 
 In the project directory, you can run:
