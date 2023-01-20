@@ -1,7 +1,11 @@
 I would like to present my website - portfolio 
 
-![alt text] (src/components/assets/img/portfolio-prev.jpg)
+![preview] (https://github.com/jokk3r/Portfolio_AL/blob/main/src/components/assets/img/portfolio-prev.jpg)
 
+<br/>
+  <img alt="preview" src="/src/components/assets/img/portfolio-prev.jpg" />
+<br/>
+<br/>
 You can view it here: https://jokk3r.github.io/Portfolio_AL/
 
 In the project directory, you can run:
