@@ -1,6 +1,6 @@
 I would like to present my website - portfolio 
 
-"src/components/assets/img/portfolio-prev.jpg"
+![alt text] (src/components/assets/img/portfolio-prev.jpg)
 
 You can view it here: https://jokk3r.github.io/Portfolio_AL/
 
