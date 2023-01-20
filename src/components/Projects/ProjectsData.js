@@ -70,7 +70,7 @@ export const ProjectsData = [
     cName1: "projects__imgBlockBasket",
     cName2: "projects__BasketImg",
     title: "World of Pizza",
-    skills: ["react","axios", "redux", "skeleton"],
+    skills: ["react","axios", "redux", "typescript"],
     link: "https://github.com/jokk3r/World-Pizza",
     img: pizza,
     description: "Pizza shop is advanced project to practice my skills with React JS.",
