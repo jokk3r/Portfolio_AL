@@ -44,9 +44,9 @@ export const ProjectsData = [
       "   In this app, I learn new things in react and write clean code, i try to do it like in a real project",
   },
   {
-    cName0: "projects__itemBasket",
-    cName1: "projects__imgBlockBasket",
-    cName2: "projects__BasketImg",
+    cName0: "projects__itemRightNext",
+    cName1: "projects__imgBlockRightNext",
+    cName2: "projects__rightNextImg",
     title: "Store basket",
     skills: ["react", "redux"],
     link: "https://github.com/jokk3r/Sport-nutrition-store",
@@ -66,14 +66,14 @@ export const ProjectsData = [
       " Cleancode is a web platform to exchange about clean coding and everything around it. Register, post working code and ask anything you want about clean coding, conventions, naminng   refactoring or related topic. Or respond to existing posts.",
   },
   {
-    cName0: "projects__itemBasket",
-    cName1: "projects__imgBlockBasket",
-    cName2: "projects__BasketImg",
+    cName0: "projects__itemRightNext",
+    cName1: "projects__imgBlockRightNext",
+    cName2: "projects__rightNextImg",
     title: "World of Pizza",
     skills: ["react","axios", "redux", "typescript"],
     link: "https://github.com/jokk3r/World-Pizza",
     img: pizza,
-    description: "Pizza shop is advanced project to practice my skills with React JS.",
+    description: "World of Pizza is my project to practice skills with React JS, as well as learning Typescript and other new technologies.",
   },
   {
     cName0: "projects__item projects__stat",
@@ -84,6 +84,6 @@ export const ProjectsData = [
     link: "https://github.com/jokk3r/Statistics",
     img: statistics,
     description:
-      "I just found a design project and brought it to life. The design only includes a desktop version. That's why I also developed this project as a desktop first, so the mobile version is my vision.",
+      "This project shows how I layout and adjust the project for different resolutions",
   },
 ];

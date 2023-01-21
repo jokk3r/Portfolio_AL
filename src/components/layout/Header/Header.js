@@ -13,7 +13,7 @@ function Header() {
   const showSidebar = () => setSidebar(!sidebar);
   const {width} = useWindowWidth();
   const node = useRef();
-  const widthToShowSidebar = 1023;
+  const widthToShowSidebar = 1024;
 
   useOnClickOutside(node, () => setSidebar(false));
 

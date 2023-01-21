@@ -27,7 +27,7 @@ export const SkillsMarquee = {
 export const SkillsData = {
   firstGroup: ["Java Script", "Mongo DB", "Node JS"],
   secondGroup: ["Express", "SQL", "NPM"],
-  thirdGroup: ["Photoshop", "Figma", "Json"],
+  thirdGroup: ["Photoshop", "Figma", "Git"],
   fourthGroup: ["React", "Redux", "Vue JS"],
-  fifthGroup: ["Git", "Axios", "SCSS"],
+  fifthGroup: ["typescript", "Axios", "SCSS"],
 };

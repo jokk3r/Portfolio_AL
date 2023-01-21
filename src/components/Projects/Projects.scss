@@ -55,7 +55,7 @@
     border-bottom: 1px solid $borderColor;
   }
 
-  &__itemBasket {
+  &__itemRightNext {
     display: flex;
     flex-direction: column;
     height: 149vw;
@@ -87,7 +87,7 @@
     color: $textColorBlack;
   }
 
-  &__imgBlockBasket {
+  &__imgBlockRightNext {
     width: 90vw;
     height: 123vw;
     position: relative;
@@ -113,7 +113,7 @@
     color: $textColorBlack;
   }
 
-  &__BasketImg {
+  &__rightNextImg {
     width: 90vw;
     height: 125vw;
     transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -211,7 +211,7 @@
       border-bottom: none;
     }
 
-    &__itemBasket {
+    &__itemRightNext {
       width: 90vw;
       height: 141vw;
       margin: 0;
@@ -237,7 +237,7 @@
       width: 90vw;
     }
 
-    &__imgBlockBasket {
+    &__imgBlockRightNext {
       width: 90vw;
       height: 123vw;
       position: relative;
@@ -255,7 +255,7 @@
       transform: scale(1.1);
     }
 
-    &__BasketImg:hover {
+    &__rightNextImg:hover {
       transform: scale(1.1);
     }
 
@@ -276,7 +276,7 @@
       object-fit: cover;
     }
 
-    &__BasketImg {
+    &__rightNextImg {
       width: 90vw;
       height: 134vw;
     }
@@ -316,7 +316,7 @@
     &__item:hover,
     &__itemFinance:hover,
     &__itemSocial:hover,
-    &__itemBasket:hover {
+    &__itemRightNext:hover {
       .hoverEff {
         &:after {
           width: 100%;
@@ -371,7 +371,7 @@
       justify-content: center;
       width: 44vw;
       height: 64vw;
-      margin-right: 3.4vw;
+      margin-right: 3vw;
       margin-bottom: 30px;
     }
 
@@ -396,7 +396,7 @@
       width: 44vw;
       height: 54vw;
       margin-top: -90px;
-      margin-right: 3.4vw;
+      margin-right: 3vw;
       margin-bottom: 10px;
     }
 
@@ -411,7 +411,7 @@
       width: 44vw;
     }
 
-    &__itemBasket {
+    &__itemRightNext {
       display: inline-flex;
       align-items: flex-start;
       justify-content: flex-start;
@@ -421,8 +421,8 @@
     }
 
     &__img {
-      width: 44vw;
-      height: 51vw;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
     }
 
@@ -438,7 +438,7 @@
       object-fit: cover;
     }
 
-    &__BasketImg {
+    &__rightNextImg {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -462,7 +462,7 @@
       position: relative;
     }
 
-    &__imgBlockBasket {
+    &__imgBlockRightNext {
       width: 100%;
       height: 100%;
       position: relative;
@@ -495,12 +495,15 @@
   }
 }
 
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1204px) {
 
   .projects{
 
     &__name {
-      font-size: 3vw;
+      font-size: 2.5vw;
+    }
+    &__clean {
+      margin-top: -12vw;
     }
   }
 }
@@ -513,10 +516,10 @@
       margin-top: -6vw;
     }
     &__stat{
-      margin-top: -6vw;
+      margin-top: -5vw;
     }
     &__clean {
-      margin-top: -12vw;
+      margin-top: -10.5vw;
     }
    
   }
@@ -526,19 +529,19 @@
   .projects{
 
     &__itemSocial {
-      margin-top: -5vw;
+      margin-top: -5.5vw;
     }
     &__stat{
-      margin-top: -5vw;
+      margin-top: -4vw;
     }
     &__clean {
-      margin-top: -11vw;
+      margin-top: -9.5vw;
     }
     
   }
 }
 
-@media only screen and (min-width: 1404px) {
+@media only screen and (min-width: 1504px) {
 
   .projects{
 
@@ -546,10 +549,10 @@
       margin-top: -4vw;
     }
     &__stat{
-      margin-top: -4vw;
+      margin-top: -2vw;
     }
     &__clean {
-      margin-top: -10vw;
+      margin-top: -8vw;
     }
     
   }
@@ -570,10 +573,10 @@
       margin-right: 5.5vw;
     }
     &__stat{
-      margin-top: -3vw;
+      margin-top: -1vw;
     }
     &__clean {
-      margin-top: -9vw;
+      margin-top: -7vw;
     }
     
   }
@@ -584,13 +587,13 @@
   .projects{
 
     &__itemSocial {
-      margin-top: -2vw;
+      margin-top: -2.5vw;
     }
     &__stat{
-      margin-top: -2vw;
+      margin-top: 0.5vw;
     }
     &__clean {
-      margin-top: -8vw;
+      margin-top: -6vw;
     }
   }
 }
@@ -600,13 +603,13 @@
   .projects{
 
     &__itemSocial {
-      margin-top: -1vw;
+      margin-top: -2vw;
     }
     &__stat{
-      margin-top: -1vw;
+      margin-top: 0.3vw;
     }
     &__clean {
-      margin-top: -7vw;
+      margin-top: -5.8vw;
     }
   }
 }
@@ -616,10 +619,10 @@
   .projects{
 
     &__itemSocial {
-      margin-top: -0.5vw;
+      margin-top: -1.5vw;
     }
     &__stat{
-      margin-top: -0.5vw;
+      margin-top: 0.2vw;
     }
   }
 }
@@ -629,13 +632,70 @@
   .projects{
 
     &__itemSocial {
-      margin-top: 0vw;
+      margin-top: -0.9vw;
     }
     &__stat{
-      margin-top: 0vw;
+      margin-top: 1vw;
     }
     &__clean {
-      margin-top: -6.5vw;
+      margin-top: -4.5vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 2204px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: -0.6vw;
+    }
+    
+  }
+}
+
+@media only screen and (min-width: 2204px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: -0vw;
+    }
+    
+    &__clean {
+      margin-top: -4vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 2580px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: 0.2vw;
+    }
+    &__stat{
+      margin-top: 0.5vw;
+    }
+    &__clean {
+      margin-top: -4vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 2804px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: 0.6vw;
+    }
+    &__stat{
+      margin-top: 0.5vw;
+    }
+    &__clean {
+      margin-top: -3.3vw;
     }
   }
 }

@@ -42,6 +42,7 @@
     position: fixed;
     width: 100vw;
     height: 32vh;
+    min-height: 250px;
     background-color: $textColor;
     top: 53px;
     right: -100vw;
@@ -109,6 +110,8 @@
     &__navMenu {
       justify-content: flex-start;
       height: 34vh;
+      min-height: 300px;
+
       .menu{
 
         &__items {
@@ -132,6 +135,9 @@
 @media only screen and (min-width: 1024px) {
   .header{
 
+    &__navMenu {
+      display: none;
+    }
     &__main {
       display: flex;
       flex-direction: column;
