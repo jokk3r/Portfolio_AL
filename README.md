@@ -1,6 +1,5 @@
-I would like to present my website - portfolio 
+My website - portfolio 
 
-![preview] (https://github.com/jokk3r/Portfolio_AL/blob/main/src/components/assets/img/portfolio-prev.jpg)
 
 <br/>
   <img alt="preview" src="/src/components/assets/img/portfolio-prev.jpg" />
