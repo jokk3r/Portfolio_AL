@@ -1,0 +1,701 @@
+@import "./../variables.scss";
+
+.projects{
+
+  &__block {
+    height: 100%;
+  }
+
+  &__intro {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__text {
+    width: 66vw;
+    font-size: 7vw;
+    margin-right: 5vw;
+    letter-spacing: -0.03em;
+    margin-bottom: 28px;
+    line-height: 120%;
+  }
+
+  &__list {
+    width: 100%;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height:131vw;
+    margin: 0 5vw;
+    margin-top: 7vw;
+    border-bottom: 1px solid $borderColor;
+  }
+
+  &__itemFinance {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 133vw;
+    margin: 0 5vw;
+    margin-top: 7vw;
+    border-bottom: 1px solid $borderColor;
+  }
+
+  &__itemSocial {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height:106vw;
+    margin: 0 5vw;
+    margin-top: 7vw;
+    border-bottom: 1px solid $borderColor;
+  }
+
+  &__itemRightNext {
+    display: flex;
+    flex-direction: column;
+    height: 149vw;
+    width: 90vw;
+    margin: 0 5vw;
+    margin-top: 7vw;
+    border-bottom: 1px solid $borderColor;
+  }
+
+  &__imgBlock {
+    width: 90vw;
+    height: 98vw;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__imgBlockFinance {
+    width: 90vw;
+    height: 110vw;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__imgBlockSocial {
+    width: 90vw;
+    height: 80vw;
+    position: relative;
+    overflow: hidden;
+    color: $textColorBlack;
+  }
+
+  &__imgBlockRightNext {
+    width: 90vw;
+    height: 123vw;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__img {
+    width: 90vw;
+    height: 101vw;
+    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+
+  &__FinanceImg {
+    width: 90vw;
+    height: 125vw;
+    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+
+  &__SocialImg {
+    height: 81vw;
+    width: 90vw;
+    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+    color: $textColorBlack;
+  }
+
+  &__rightNextImg {
+    width: 90vw;
+    height: 125vw;
+    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+
+  &__name {
+    font-size: 4.5vw;
+    position: absolute;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    left: 4vw;
+    bottom: 3.5vw;
+    margin-bottom: 0px;
+  }
+
+  &__info {
+    width: 90vw;
+  }
+  
+  &__skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+  }
+
+  &__technologies {
+    display: flex;
+  }
+
+  &__techName {
+    font-size: 2vw;
+    margin-right: 12px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    border: 1px solid $borderColor;
+    padding: 5px;
+    border-radius: 13px;
+    margin-top: 0;
+    margin-bottom: 23px;
+  }
+  
+  &__describeText {
+    margin-top: 6px;
+    margin-bottom: 23px;
+    line-height: 120%;
+    width: 71vw;
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  $animate: all 0.2s ease-in-out;
+
+  .projects{
+
+    &__text {
+      font-size: 4.6vw;
+      width: 46vw;
+      margin-right: 14vw;
+      margin-bottom: 60px;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__item {
+      height: 100%;
+      border: none;
+      width: 90vw;
+      height: 120vw;
+      margin: 0;
+      margin-bottom: 40px;
+      position: relative;
+    }
+
+    &__itemFinance {
+      width: 90vw;
+      height: 123vw;
+      margin: 0;
+      margin-bottom: 40px;
+      border-bottom: none;
+    }
+
+    &__itemSocial {
+      width: 90vw;
+      height: 100%;
+      margin: 0;
+      margin-bottom: 40px;
+      border-bottom: none;
+    }
+
+    &__itemRightNext {
+      width: 90vw;
+      height: 141vw;
+      margin: 0;
+      margin-bottom: 40px;
+      border-bottom: none;
+    }
+
+    &__imgBlock {
+      width: 90vw;
+      height: 98vw;
+      position: relative;
+    }
+
+    &__imgBlockFinance {
+      width: 90vw;
+      height: 105vw;
+      position: relative;
+    }
+
+    &__imgBlockSocial {
+      margin-top: 0;
+      height: 79vw;
+      width: 90vw;
+    }
+
+    &__imgBlockRightNext {
+      width: 90vw;
+      height: 123vw;
+      position: relative;
+    }
+
+    &__img:hover {
+      transform: scale(1.1);
+    }
+
+    &__SocialImg:hover {
+      transform: scale(1.1);
+    }
+
+    &__FinanceImg:hover {
+      transform: scale(1.1);
+    }
+
+    &__rightNextImg:hover {
+      transform: scale(1.1);
+    }
+
+    &__img {
+      width: 90vw;
+      height: 100vw;
+    }
+
+    &__FinanceImg {
+      width: 90vw;
+      height: 104vw;
+      object-fit: cover;
+    }
+
+    &__SocialImg {
+      width: 90vw;
+      height: 78vw;
+      object-fit: cover;
+    }
+
+    &__rightNextImg {
+      width: 90vw;
+      height: 134vw;
+    }
+  
+    &__intro {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    &__name {
+      left: 44px;
+      bottom: 36px;
+      font-size: 3vw;
+    }
+
+    &__info {
+      width: 90vw;
+      transition: $animate;
+      position: relative;
+      border-bottom: 1px solid $borderColor;
+
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 1px;
+        margin: 1px 0 0;
+        transition: $animate;
+        transition-duration: 0.75s;
+        opacity: 0;
+        background-color: $textColor;
+      }
+    }
+
+    &__item:hover,
+    &__itemFinance:hover,
+    &__itemSocial:hover,
+    &__itemRightNext:hover {
+      .hoverEff {
+        &:after {
+          width: 100%;
+          opacity: 1;
+        }
+      }
+    }
+
+    &__techName {
+      font-size: 2.1vw;
+      padding: 3px 10px 3px 10px;
+      border-radius: 20px;
+      line-height: 120%;
+      margin-top: 0;
+      margin-bottom: 29px;
+    }
+
+    &__describeText {
+      line-height: 120%;
+      font-size: 2.2vw;
+      width: 69%;
+      margin-top: 2px;
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .projects{
+
+    &__block {
+      margin: 0 6.5vw 0 6.5vw;
+    }
+
+    &__text {
+      font-size: 4.6vw;
+      width: 46vw;
+      margin-right: 3vw;
+    }
+
+    &__list {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-top: 10vw;
+    }
+
+    &__item {
+      display: inline-flex;
+      align-items: flex-start;
+      justify-content: center;
+      width: 44vw;
+      height: 64vw;
+      margin-right: 3vw;
+      margin-bottom: 30px;
+    }
+
+    &__clean {
+      margin-top: -7vw;
+    }
+
+    &__itemFinance {
+      display: inline-flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 30.5vw;
+      height: 57.5vw;
+      margin-top: 170px;
+      margin-bottom: 30px;
+    }
+
+    &__itemSocial {
+      display: inline-flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 44vw;
+      height: 54vw;
+      margin-top: -90px;
+      margin-right: 3vw;
+      margin-bottom: 10px;
+    }
+
+    &__clean {
+      margin-top: -13vw;
+    }
+    &__stat{
+      margin-top: -7vw;
+    }
+
+    &__info {
+      width: 44vw;
+    }
+
+    &__itemRightNext {
+      display: inline-flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 30.5vw;
+      height: 58.5vw;
+      margin-bottom: 30px;
+    }
+
+    &__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &__FinanceImg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &__SocialImg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &__rightNextImg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &__imgBlock {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    &__imgBlockFinance {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    &__imgBlockSocial {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    &__imgBlockRightNext {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    &__name {
+      font-size: 2vw;
+    }
+
+    &__info {
+      width: 100%;
+    }
+
+    &__skills {
+      margin-top: 3vw;
+    }
+
+    &__item &__info {
+      width: 44vw;
+    }
+
+    &__techName {
+      margin-bottom: 21px;
+      font-size: 1.1vw;
+    }
+
+    &__describeText {
+      font-size: 1.1vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 1204px) {
+
+  .projects{
+
+    &__name {
+      font-size: 2.5vw;
+    }
+    &__clean {
+      margin-top: -12vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 1304px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: -6vw;
+    }
+    &__stat{
+      margin-top: -5vw;
+    }
+    &__clean {
+      margin-top: -10.5vw;
+    }
+   
+  }
+}
+@media only screen and (min-width: 1404px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: -5.5vw;
+    }
+    &__stat{
+      margin-top: -4vw;
+    }
+    &__clean {
+      margin-top: -9.5vw;
+    }
+    
+  }
+}
+
+@media only screen and (min-width: 1504px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: -4vw;
+    }
+    &__stat{
+      margin-top: -2vw;
+    }
+    &__clean {
+      margin-top: -8vw;
+    }
+    
+  }
+}
+
+
+
+@media only screen and (min-width: 1604px) {
+
+  .projects{
+
+    &__item {
+      margin-right: 5.5vw;
+    }
+
+    &__itemSocial {
+      margin-top: -3vw;
+      margin-right: 5.5vw;
+    }
+    &__stat{
+      margin-top: -1vw;
+    }
+    &__clean {
+      margin-top: -7vw;
+    }
+    
+  }
+}
+
+@media only screen and (min-width: 1704px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: -2.5vw;
+    }
+    &__stat{
+      margin-top: 0.5vw;
+    }
+    &__clean {
+      margin-top: -6vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 1804px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: -2vw;
+    }
+    &__stat{
+      margin-top: 0.3vw;
+    }
+    &__clean {
+      margin-top: -5.8vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 1904px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: -1.5vw;
+    }
+    &__stat{
+      margin-top: 0.2vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 2004px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: -0.9vw;
+    }
+    &__stat{
+      margin-top: 1vw;
+    }
+    &__clean {
+      margin-top: -4.5vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 2204px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: -0.6vw;
+    }
+    
+  }
+}
+
+@media only screen and (min-width: 2204px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: -0vw;
+    }
+    
+    &__clean {
+      margin-top: -4vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 2580px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: 0.2vw;
+    }
+    &__stat{
+      margin-top: 0.5vw;
+    }
+    &__clean {
+      margin-top: -4vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 2804px) {
+
+  .projects{
+
+    &__itemSocial {
+      margin-top: 0.6vw;
+    }
+    &__stat{
+      margin-top: 0.5vw;
+    }
+    &__clean {
+      margin-top: -3.3vw;
+    }
+  }
+}
